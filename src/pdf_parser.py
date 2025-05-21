@@ -95,3 +95,40 @@ def split_text_into_paragraphs(text):
         cleaned_paragraphs.append(re.sub(r'\s+', ' ', p).strip())
 
     return cleaned_paragraphs
+# 在你的 src/pdf_parser.py 文件中添加或修改一个函数
+
+def remove_references_section(text):
+    """
+    尝试从文本末尾移除参考文献部分。
+    """
+    if not text:
+        return ""
+
+    # 常见参考文献标题的正则表达式模式（不区分大小写，可能前面有数字或空格）
+    # 使用 \b 确保是整个单词匹配，避免匹配到其他地方的 "reference"
+    # 使用 re.IGNORECASE 忽略大小写
+    reference_patterns = [
+        r'\bReferences?\b',          # "References", "Reference"
+        r'\bBIBLIOGRAPHY\b',         # "BIBLIOGRAPHY"
+        r'\bLITERATURE\s+CITED\b',   # "LITERATURE CITED"
+        r'\bAcknowledgement(s)?\b',  # 有些文献References前会有致谢
+        r'\bAppendix(es)?\b',        # 附录通常也在最后
+        r'\bSUPPORTING\s+INFORMATION\b', # 某些期刊的补充信息
+        r'\bSUPPLEMENTARY\s+MATERIALS?\b', # 补充材料
+    ]
+
+    # 将所有模式组合成一个大的正则表达式，并编译以提高效率
+    combined_pattern = re.compile(r'|'.join(reference_patterns), re.IGNORECASE)
+
+    # 从文本末尾开始向前查找，或者直接从头开始查找第一个匹配
+    # 因为 References 通常在文档的末尾，我们假设找到的第一个匹配就是它
+    match = combined_pattern.search(text)
+
+    if match:
+        # 如果找到匹配，截断文本到匹配开始的位置
+        print(f"--- INFO: Identified and removing references section starting at index {match.start()} ---")
+        return text[:match.start()].strip()
+    else:
+        # 如果没有找到，返回原始文本
+        print("--- INFO: No explicit references section header found to remove. ---")
+        return text.strip()
