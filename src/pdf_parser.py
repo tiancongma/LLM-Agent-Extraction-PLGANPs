@@ -22,7 +22,7 @@ def extract_text_from_pdf(pdf_path):
         return None
     return text
 
-def split_text_into_paragraphs_heuristic_v3(text):
+def split_text_into_paragraphs(text):
     """
     智能地将文本分割成段落，使用多种启发式规则。
     适用于单换行符 \n 同时代表行内换行和段落换行的情况。
