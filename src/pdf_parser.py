@@ -1,5 +1,3 @@
-# pdf_parser.py 内容示例
-
 from pypdf import PdfReader
 import os
 
@@ -19,26 +17,33 @@ def extract_text_from_pdf(pdf_path):
         return None
     return text
 
+# 改进的 split_text_into_paragraphs 示例
 def split_text_into_paragraphs(text):
-    """
-    将提取的文本按双换行符分割成段落。
-    """
     if not text:
         return []
-    paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
-    return paragraphs
 
-if __name__ == '__main__':
-    # 这是一个简单的测试，在 Colab 中通常不直接运行这个。
-    # 更建议在 Notebook 主单元格中导入和测试。
-    print("This is pdf_parser.py module.")
-    # 假设你有一个PDF文件在 'data/raw_pdfs/' 目录下
-    # pdf_example_path = 'data/raw_pdfs/sample.pdf'
-    # if os.path.exists(pdf_example_path):
-    #     content = extract_text_from_pdf(pdf_example_path)
-    #     if content:
-    #         print("Extracted text sample:", content[:500])
-    #         paragraphs = split_text_into_paragraphs(content)
-    #         print(f"Total paragraphs: {len(paragraphs)}")
-    # else:
-    #     print(f"Test PDF not found at {pdf_example_path}")
+    # 尝试按行切分，并过滤掉空行
+    lines = text.split('\n')
+    processed_paragraphs = []
+    current_paragraph = []
+
+    for line in lines:
+        stripped_line = line.strip()
+        if stripped_line:
+            # 假设非空行都属于当前段落
+            current_paragraph.append(stripped_line)
+        else:
+            # 遇到空行，表示一个段落的结束
+            if current_paragraph:
+                processed_paragraphs.append(" ".join(current_paragraph))
+                current_paragraph = [] # 重置，准备下一个段落
+
+    # 处理最后一个段落（如果文件末尾没有空行）
+    if current_paragraph:
+        processed_paragraphs.append(" ".join(current_paragraph))
+
+    # 过滤掉太短的段落，这些可能是页眉页脚的残余或不重要的单行文字
+    # 但要注意，有些关键信息（如标题）也可能很短，需谨慎过滤
+    # processed_paragraphs = [p for p in processed_paragraphs if len(p) > 30]
+
+    return processed_paragraphs
