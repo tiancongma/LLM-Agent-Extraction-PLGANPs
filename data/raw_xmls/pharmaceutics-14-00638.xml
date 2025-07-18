@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">pharmaceutics</journal-id>
+      <journal-title-group>
+        <journal-title>Pharmaceutics</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Pharmaceutics</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Pharmaceutics</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1999-4923</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/pharmaceutics14030638</article-id>
+      <article-id pub-id-type="publisher-id">pharmaceutics-14-00638</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Design, Development, Physicochemical Characterization, and In Vitro Drug Release of Formoterol PEGylated PLGA Polymeric Nanoparticles</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5994-1265</contrib-id>
+          <name>
+            <surname>Vallorz</surname>
+            <given-names>Ernest L.</given-names>
+          </name>
+          <xref rid="af1-pharmaceutics-14-00638" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Encinas-Basurto</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref rid="af1-pharmaceutics-14-00638" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6226-6064</contrib-id>
+          <name>
+            <surname>Schnellmann</surname>
+            <given-names>Rick G.</given-names>
+          </name>
+          <xref rid="af1-pharmaceutics-14-00638" ref-type="aff">1</xref>
+          <xref rid="af2-pharmaceutics-14-00638" ref-type="aff">2</xref>
+          <xref rid="af3-pharmaceutics-14-00638" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3993-9210</contrib-id>
+          <name>
+            <surname>Mansour</surname>
+            <given-names>Heidi M.</given-names>
+          </name>
+          <xref rid="af1-pharmaceutics-14-00638" ref-type="aff">1</xref>
+          <xref rid="af2-pharmaceutics-14-00638" ref-type="aff">2</xref>
+          <xref rid="af3-pharmaceutics-14-00638" ref-type="aff">3</xref>
+          <xref rid="af4-pharmaceutics-14-00638" ref-type="aff">4</xref>
+          <xref rid="c1-pharmaceutics-14-00638" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Tagit</surname>
+            <given-names>Oya</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-pharmaceutics-14-00638"><label>1</label>Skaggs Pharmaceutical Sciences Center, The University of Arizona R. Ken Coit College of Pharmacy, 1703 E Mabel St., Tucson, AZ 85721, USA; <email>vallorz@pharmacy.arizona.edu</email> (E.L.V.); <email>dencinas@pharmacy.arizona.edu</email> (D.E.-B.); <email>schnell@pharmacy.arizona.edu</email> (R.G.S.)</aff>
+      <aff id="af2-pharmaceutics-14-00638"><label>2</label>Department of Medicine, The University of Arizona College of Medicine, 501 N Campbell Ave., Tucson, AZ 85724, USA</aff>
+      <aff id="af3-pharmaceutics-14-00638"><label>3</label>BIO5 Institute, The University of Arizona, 1657 E Helen St., Tucson, AZ 85719, USA</aff>
+      <aff id="af4-pharmaceutics-14-00638"><label>4</label>Center for Translational Science, Florida International University, Port St. Lucie, FL 34987, USA</aff>
+      <author-notes>
+        <corresp id="c1-pharmaceutics-14-00638"><label>*</label>Correspondence: <email>hmansour@fiu.edu</email>; Tel.: +1-(772)-345-4731</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>03</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <issue>3</issue>
+      <elocation-id>638</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>12</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>09</day>
+          <month>03</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 by the authors.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Polymeric nanoparticles&#x2019; drug delivery systems represent a promising platform for targeted controlled release since they are capable of improving the bioavailability and tissue localization of drugs compared to traditional means of administration. Investigation of key parameters of nanoparticle preparation and their impact on performance, such as size, drug loading, and sustained release, is critical to understanding the synthesis parameters surrounding a given nanoparticle formulation. This comprehensive and systematic study reports for the first time and focuses on the development and characterization of formoterol polymeric nanoparticles that have potential application in a variety of acute and chronic diseases. Nanoparticles were prepared by a variety of solvent emulsion methods with varying modifications to the polymer and emulsion system with the aim of increasing drug loading and tuning particle size for renal localization and drug delivery. Maximal drug loading was achieved by amine modification of polyethylene glycol (PEG) conjugated to the poly(lactic-co-glycolic acid) (PLGA) backbone. The resulting formoterol PEGylated PLGA polymeric nanoparticles were successfully lyophilized without compromising size distribution by using either sucrose or trehalose as cryoprotectants. The physicochemical characteristics of the nanoparticles were examined comprehensively, including surface morphology, solid-state transitions, crystallinity, and residual water content. In vitro formoterol drug release characteristics from the PEGylated PLGA polymeric nanoparticles were also investigated as a function of both polymer and emulsion parameter selection, and release kinetics modeling was successfully applied.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>nanoparticle</kwd>
+        <kwd>solid-state characterization</kwd>
+        <kwd>in vitro</kwd>
+        <kwd>drug release kinetics modeling</kwd>
+        <kwd>PEGylation</kwd>
+        <kwd>PLGA diblock copolymer</kwd>
+        <kwd>biodegradable</kwd>
+        <kwd>biocompatible</kwd>
+        <kwd>amine</kwd>
+        <kwd>emulsion</kwd>
+        <kwd>polyvinyl alcohol (PVA)</kwd>
+        <kwd>Pluronic triblock copolymer</kwd>
+        <kwd>trehalose</kwd>
+        <kwd>sucrose</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-pharmaceutics-14-00638" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Developments in the formulation and application of nanotechnology have advanced the administration of drugs to different organs for a wide array of diseases. Compared to carrier-independent conventional dosage forms, drug nanoparticles possess many key advantages. Nanoparticle drug delivery allows for improved solubility and stability of the drug, sustained drug release, improved patient compliance, and targeted delivery that can increase the therapeutic index of medicines [<xref ref-type="bibr" rid="B1-pharmaceutics-14-00638">1</xref>,<xref ref-type="bibr" rid="B2-pharmaceutics-14-00638">2</xref>,<xref ref-type="bibr" rid="B3-pharmaceutics-14-00638">3</xref>].</p>
+      <p>Polymer-based particles are frequently studied and used as drug carriers in a wide variety of therapeutic applications since controlling their synthesis enables their physicochemical properties and drug release properties to be customized [<xref ref-type="bibr" rid="B4-pharmaceutics-14-00638">4</xref>]. Thus, size distribution or side-chain composition of the polymer can be modified to improve nanoparticle performance. Among various polymers, the most widely used are aliphatic polyesters such as poly(lactic-co-glycolic acid) (PLGA) due to this particular polyester&#x2019;s favorable biodegradation characteristics and biocompatibility, and its success in FDA-approved sustained release injectable marketed pharmaceutical products [<xref ref-type="bibr" rid="B5-pharmaceutics-14-00638">5</xref>]. Advances in the design of these particles has improved stability and circulation through PEGylation [<xref ref-type="bibr" rid="B6-pharmaceutics-14-00638">6</xref>,<xref ref-type="bibr" rid="B7-pharmaceutics-14-00638">7</xref>,<xref ref-type="bibr" rid="B8-pharmaceutics-14-00638">8</xref>], biospecific targeting [<xref ref-type="bibr" rid="B9-pharmaceutics-14-00638">9</xref>,<xref ref-type="bibr" rid="B10-pharmaceutics-14-00638">10</xref>,<xref ref-type="bibr" rid="B11-pharmaceutics-14-00638">11</xref>,<xref ref-type="bibr" rid="B12-pharmaceutics-14-00638">12</xref>], and improved drug loading [<xref ref-type="bibr" rid="B2-pharmaceutics-14-00638">2</xref>,<xref ref-type="bibr" rid="B13-pharmaceutics-14-00638">13</xref>].</p>
+      <p>Formoterol fumarate dihydrate, a long-acting &#x3B2;<sub>2</sub> agonist (LABA), is a United States Food and Drug Administration (FDA)-approved agent for the treatment of asthma and obstructive pulmonary disease via inhalation. More recently, formoterol fumarate dihydrate has shown promise in treating mitochondrial dysfunction, which occurs in a variety of acute and chronic injuries [<xref ref-type="bibr" rid="B14-pharmaceutics-14-00638">14</xref>,<xref ref-type="bibr" rid="B15-pharmaceutics-14-00638">15</xref>,<xref ref-type="bibr" rid="B16-pharmaceutics-14-00638">16</xref>,<xref ref-type="bibr" rid="B17-pharmaceutics-14-00638">17</xref>,<xref ref-type="bibr" rid="B18-pharmaceutics-14-00638">18</xref>,<xref ref-type="bibr" rid="B19-pharmaceutics-14-00638">19</xref>,<xref ref-type="bibr" rid="B20-pharmaceutics-14-00638">20</xref>,<xref ref-type="bibr" rid="B21-pharmaceutics-14-00638">21</xref>]. Given that the &#x3B2;<sub>2</sub>-adrenergic receptor is ubiquitously expressed, systemic delivery of formoterol risks potentially toxic side effects, particularly due to acute cardiovascular effects such as tachycardia and hypotension [<xref ref-type="bibr" rid="B22-pharmaceutics-14-00638">22</xref>,<xref ref-type="bibr" rid="B23-pharmaceutics-14-00638">23</xref>,<xref ref-type="bibr" rid="B24-pharmaceutics-14-00638">24</xref>,<xref ref-type="bibr" rid="B25-pharmaceutics-14-00638">25</xref>], as well as long-term cardiac remodeling [<xref ref-type="bibr" rid="B26-pharmaceutics-14-00638">26</xref>,<xref ref-type="bibr" rid="B27-pharmaceutics-14-00638">27</xref>,<xref ref-type="bibr" rid="B28-pharmaceutics-14-00638">28</xref>,<xref ref-type="bibr" rid="B29-pharmaceutics-14-00638">29</xref>]. Polymeric nanoparticles targeting the renal proximal tubules have shown promise at avoiding potential systemic toxicity using the FDA-approved diblock copolymer poly(lactic-co-glycolic) acid (PLGA) conjugated with FDA-approved polyethylene glycol (PEG) [<xref ref-type="bibr" rid="B10-pharmaceutics-14-00638">10</xref>,<xref ref-type="bibr" rid="B30-pharmaceutics-14-00638">30</xref>,<xref ref-type="bibr" rid="B31-pharmaceutics-14-00638">31</xref>,<xref ref-type="bibr" rid="B32-pharmaceutics-14-00638">32</xref>]. Thus, combining the potential renal targeting of polymeric nanoparticles with the mitochondrial biogenic and renoprotective effects of formoterol is likely to allow for enhanced biogenic effects and potentially improved recovery following renal injury while minimizing toxicity. In a proof-of-concept study, our laboratory has recently shown an ability to successfully deliver formoterol to the kidneys, providing renal drug targeting and sustained renal mitochondrial biogenesis while reducing the effect of the drug on the heart [<xref ref-type="bibr" rid="B33-pharmaceutics-14-00638">33</xref>]. The purpose of this comprehensive and systematic study was to improve upon the previously synthesized nanoparticles, which were limited by formoterol drug loading and rapid release, by modifying the route of nanoparticle synthesis and through an evaluation of polymer modifications. Additionally, this study will characterize the physicochemical properties of the nanoparticles, quantify sustained release behavior, correlate the physicochemical properties with the sustained drug release properties, and mathematically model drug release with known mechanistic drug release models. To the authors&#x2019; knowledge, this is the first study to report these findings.</p>
+    </sec>
+    <sec id="sec2-pharmaceutics-14-00638">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-pharmaceutics-14-00638">
+        <title>2.1. Materials</title>
+        <p>Formoterol fumarate dihydrate [C<sub>19</sub>H<sub>24</sub>N<sub>2</sub>O<sub>4</sub>&#xB7;0.5C<sub>4</sub>H<sub>4</sub>O<sub>4</sub>&#xB7;H<sub>2</sub>O; 420.46 g/mol; 99.8% pure] was purchased from APAC Pharmaceuticals (Columbia, MD, USA). Poly(ethylene glycol) methyl ether-block-poly(lactide-co-glycolide) (PLGA-PEG), lactide:glycolide ratio 50:50, PLGA average M<sub>n</sub> 55,000 g/mol, 30,000 g/mol, and 15,000 g/mol; PEG average M<sub>n</sub> 5000 g/mol was purchased from Sigma-Aldrich (St. Louis, MO, USA). Poly(lactide-co-glycolide) methyl ether block- poly(ethylene glycol)-amine (PLGA-PEG-HN<sub>2</sub>) PLGA average M<sub>n</sub> 20,000 g/mol, PEG average M<sub>n</sub> 5000 g/mol and poly(lactide-co-glycolide) methyl ether block- poly(ethylene glycol)-carboxylic acid (PLGA-PEG-COOH) PLGA average M<sub>n</sub> 20,000 g/mol, and PEG average M<sub>n</sub> 5000 g/mol were purchased from Nanosoft Polymers (Winston-Salem, NC, USA). Acetic acid (HPLC grade) was purchased from ThermoFisher (Waltham, MA, USA). Ethanol (99.9% purity, HPLC grade), hydrochloric acid 1 N (ACS grade), sodium hydroxide 1 N (ACS grade), poly(vinyl alcohol) (PVA) (molecular weight 89,000&#x2013;98,000 g/mol, &gt;99% hydrolyzed, reagent grade), Pluronic F127&#x2122; (molecular weight~12,600 g/mol, reagent grade), sodium choate hydrate (&gt;99% purity), sodium deoxycholate (&gt;99% purity) potassium phosphate monobasic (&gt;99% purity), potassium phosphate dibasic (&gt;98% purity), formic acid (97.5&#x2013;98.5% purity), d-mannitol (ACS grade), and sucrose (99.5% purity) were purchased from Sigma-Aldrich (St. Louis, MO, USA). (+)-Trehalose dihydrate (387.32 g/mol) was purchased from Acros Organics (Fair Lawn, NJ, USA). Choloroform (ACS grade), anhydrous acetonitrile (LCMS grade), and methanol (LCMS grade) were purchased from Spectrum Chemical Mfg. Corp. (Gardena, CA, USA). 0.45 &#xB5;m polyvinylidene fluoride (PVDF) and 0.45 &#xB5;m polytetrafluoroethylene (PTFE) membrane filters were purchased from MilliporeSigma (Burlington, MA, USA).</p>
+      </sec>
+      <sec id="sec2dot2-pharmaceutics-14-00638">
+        <title>2.2. Methods</title>
+        <sec id="sec2dot2dot1-pharmaceutics-14-00638">
+          <title>2.2.1. Solubility of Formoterol Fumarate Dihydrate in Aqueous and Organic Media</title>
+          <p>The solubility of formoterol fumarate dihydrate (APAC Pharmaceuticals, Columbia, MD, USA) was determined in various common aqueous and organic media to determine their suitability for use in the preparation of nanoparticles. The excess of formoterol fumarate dihydrate was added to a known volume of solvent. For variable pH samples, solution pH was adjusted with either hydrochloric acid or sodium hydroxide solutions (1 M Sigma-Aldrich, St. Louis, MO, USA). Vials were rotated gently for 24 h at 25 &#xB0;C, as previously described [<xref ref-type="bibr" rid="B34-pharmaceutics-14-00638">34</xref>]. Test solutions were filtered using 0.45 &#xB5;m PVDF or PTFE membrane filters (MilliporeSigma, Burlington, MA, USA) for aqueous and organic solvents, respectively. Quantitative analysis of formoterol content was determined by high performance liquid chromatography (HPLC), as previously described [<xref ref-type="bibr" rid="B35-pharmaceutics-14-00638">35</xref>]. Briefly, a C18- column (4.6 mm &#xD7; 250 mm length, 5 &#xB5;m pore size) (Phenomenex, Torrance, CA, USA) mobile phase consisting of methanol (Spectrum Chemical MFG Corp., Gardena, CA, USA) and 50 mM phosphoric acid (Sigma-Aldrich, St. Louis, MO, USA) buffer with 1% acetic acid (ThermoFisher, Waltham, MA, USA) at a ratio of 65:35, 1.0 mL/min flow rate and a column temperature of 40 &#xB0;C was used to quantify formoterol content.</p>
+        </sec>
+        <sec id="sec2dot2dot2-pharmaceutics-14-00638">
+          <title>2.2.2. Preparation of Polymeric Nanoparticles</title>
+          <p>Nanoparticles were prepared by either single or double emulsion methods. For nanoparticles prepared by oil-in-water single emulsion, the polymer was dissolved in chloroform and formoterol fumarate dihydrate were dissolved in methanol before being added to the polymer solution. This was then emulsified in an aqueous solution of 3% PVA (Sigma-Aldrich, St. Louis, MO, USA) using a microtip probe sonicator (Qsonica, Newton, CT, USA) at 60 Watt of energy output for 3 min over ice and the organic solvent allowed to evaporate with stirring (700 rpm) at room temperature for at least 8 h. For nanoparticles prepared by water-in-oil-in-water double emulsion, formoterol fumarate dihydrate was dissolved in aqueous media before being added to a solution of polymer in chloroform (Spectrum Chemical Mfg. Corp., Gardena, CA, USA) at a 1:2 aqueous:organic ratio. An initial emulsion was formed by sonicating at 60 Watt using a microtip probe sonicator for 30 s before being added to a 3% PVA solution and sonicated again. The organic solvent was then allowed to evaporate with stirring at room temperature. For all nanoparticle syntheses, the particles were collected by centrifugation at 15,000 relative centrifugal force (rcf) and washed three times with distilled ultrapure water (18.2 M&#x2126;.cm) (Milli-Q Plus, MilliporeSigma, Burlington, MA, USA). The samples were lyophilized at &#x2212;80 &#xB0;C under a vacuum &lt; 0.133 mmHg (FreeZone 4.5 L, Labconco, Kansas City, MO, USA) with or without cryoprotectant and stored at &#x2212;20 &#xB0;C until use.</p>
+        </sec>
+        <sec id="sec2dot2dot3-pharmaceutics-14-00638">
+          <title>2.2.3. Effect of Polymeric Nanoparticle Synthesis Parameters on Formoterol Drug Loading</title>
+          <p>To determine drug loading, nanoparticles were dissolved in an acetonitrile solution and analyzed by HPLC method reported above. Drug loading was calculated, as previously reported [<xref ref-type="bibr" rid="B36-pharmaceutics-14-00638">36</xref>], using Equation (1):<disp-formula id="FD1-pharmaceutics-14-00638"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mi>DL</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo>(</mml:mo><mml:mo>%</mml:mo><mml:mo>)</mml:mo><mml:mo>=</mml:mo></mml:mrow><mml:mfrac><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>a</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>f</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>l</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>a</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>y</mml:mi><mml:mi>e</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>a</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>o</mml:mi><mml:mi>f</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>n</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi><mml:mi>l</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mi>e</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>p</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        </sec>
+        <sec id="sec2dot2dot4-pharmaceutics-14-00638">
+          <title>2.2.4. Effect of Polymeric Nanoparticle Synthesis Parameters on Particle Size</title>
+          <p>Nanoparticle size was determined immediately following washing. For the evaluation of the lyophilized particles, approximately 1 mg of nanoparticle was suspended in ultrapure water and centrifuged for 10 min at 15,000 rcf to remove the cryoprotectant. Nanoparticles were suspended at a concentration of ~1 mg/mL with ultrapure water, and hydrodynamic particle size was determined by photon correlation spectroscopy using the Zetasizer Nano ZS (Malvern Instruments Ltd., Malvern, UK) under previously reported conditions [<xref ref-type="bibr" rid="B37-pharmaceutics-14-00638">37</xref>]. The suspended nanoparticles were evaluated using a scattering angle of 173&#xB0; at a temperature of 25 &#xB0;C in triplicate with a minimum of 10 measurements taken per replicate.</p>
+        </sec>
+        <sec id="sec2dot2dot5-pharmaceutics-14-00638">
+          <title>2.2.5. Impact of Nanoparticle Synthesis Parameters on Zeta Potential</title>
+          <p>Nanoparticle zeta potential (&#x3B6;) measurements were carried out in 0.1&#xD7; normal saline solution at 25 &#xB0;C and pH 7.2. The mean &#x3B6; was determined using the Zetasizer Nano ZS (Malvern Instruments Ltd., Malvern, UK) phase analysis light scattering technique.</p>
+        </sec>
+        <sec id="sec2dot2dot6-pharmaceutics-14-00638">
+          <title>2.2.6. Impact of Nanoparticle Synthesis Parameters on In Vitro Drug Release</title>
+          <p>Nanoparticles prepared as described above were dispersed in 10 mL of phosphate buffered saline (PBS) (pH 7.4) and incubated at 37 &#xB0;C with gentle stirring, as previously described [<xref ref-type="bibr" rid="B38-pharmaceutics-14-00638">38</xref>]. At determined intervals, an aliquot was taken and centrifuged at 15,000 rcf for 10 min. The supernatant was extracted and replaced with an equal volume of fresh PBS in order to maintain sink conditions. Formoterol content was chemically analyzed and quantified by HPLC, as described above. Modeling of formoterol in vitro drug release was carried out for three kinetic models, namely, the zero-order, first-order, and Korsmeyer&#x2013;Peppas models. Zero-order kinetics were fitted to Equation (2):<disp-formula id="FD2-pharmaceutics-14-00638"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>Q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mi>t</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <italic>Q<sub>t</sub></italic> is the amount of drug released after time <italic>t</italic>, <italic>Q</italic><sub>0</sub> is the initial amount of drug in solution, and <italic>k</italic><sub>0</sub> is the zero-order rate constant. First-order kinetics were fit to Equation (3):<disp-formula id="FD3-pharmaceutics-14-00638"><label>(3)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>Q</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>Q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>t</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <italic>Q<sub>t</sub></italic> is the amount of drug released after time <italic>t</italic>, <italic>Q</italic><sub>0</sub> is the initial amount of drug in solution, and <italic>k</italic><sub>1</sub> is the first-order rate constant. Finally, release kinetics were fit to the Korsmeyer&#x2013;Peppas model, Equation (4):<disp-formula id="FD4-pharmaceutics-14-00638"><label>(4)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>k</mml:mi><mml:msup><mml:mi>t</mml:mi><mml:mi>n</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <italic>Q<sub>t</sub></italic> is the amount of drug released after time <italic>t</italic>, <italic>k</italic> is the rate constant, and <italic>n</italic> is the diffusion exponent for drug release. Nanoparticle release was determined in triplicated (<italic>n</italic> = 3) for each preparation. Data were plotted using Prism 9.0 (GraphPad<sup>&#xAE;</sup> Software, San Diego, CA, USA).</p>
+        </sec>
+        <sec id="sec2dot2dot7-pharmaceutics-14-00638">
+          <title>2.2.7. Characterization of Nanoparticle Surface Morphology</title>
+          <p>Nanoparticle size and surface morphology was visualized using SEM (FEI Inspect S SEM, FEI Company, Hillsboro, OR, USA). Powders were deposited on double-sided carbon conductive adhesive tabs (Ted-Pella, Inc., Redding, CA, USA) attached to aluminum SEM stubs (Ted-Pella, Inc., Redding, CA, USA) and sputter-coated (Anatech Hummer 6.2, Union City, CA, USA) with gold for 90 s under argon plasma as previously reported [<xref ref-type="bibr" rid="B39-pharmaceutics-14-00638">39</xref>].</p>
+        </sec>
+        <sec id="sec2dot2dot8-pharmaceutics-14-00638">
+          <title>2.2.8. X-Ray Powder Diffraction (XRPD)</title>
+          <p>The crystallinity of PLGA-PEG-NH<sub>2</sub>, formoterol fumarate dihydrate, sucrose, trehalose, and lyophilized nanoparticles with and without cryoprotectant were examined using XRPD. The diffraction patterns of the samples were collected at room temperature scanning between 5.0&#xB0; and 70.0&#xB0; (2&#x3B8;) at a rate of 2.00&#xB0; per minute using a Philips PANalytical X&#x2019;Pert PRO MPD (Malvern Panalytical, Malvern, UK) equipped with copper X-ray source (K&#x3B1; radiation with &#x3BB; = 1.5406 &#xC5;). The samples were loaded onto zero background single crystal silicon holders, as previously reported [<xref ref-type="bibr" rid="B37-pharmaceutics-14-00638">37</xref>,<xref ref-type="bibr" rid="B39-pharmaceutics-14-00638">39</xref>].</p>
+        </sec>
+        <sec id="sec2dot2dot9-pharmaceutics-14-00638">
+          <title>2.2.9. Thermal Analysis of Lyophilized Nanoparticles</title>
+          <p>Thermal analysis was performed by differential scanning calorimetry (DSC) and cross-polarized hot stage microscopy (HSM). DSC analysis was conducted as previously reported [<xref ref-type="bibr" rid="B40-pharmaceutics-14-00638">40</xref>,<xref ref-type="bibr" rid="B41-pharmaceutics-14-00638">41</xref>]. Thermal analysis and phase transition measurements for raw formoterol fumarate dihydrate, raw PLGA-PEG-NH<sub>2</sub> (20,000 MW PLGA, 5000 MW PEG), raw sucrose, raw trehalose, and lyophilized PLGA-PEG-NH<sub>2</sub> used with or without either sucrose or trehalose as a cryoprotectant were studied. Thermograms were acquired using the TA Q1000 differential scanning calorimeter with RSC090 colling accessory (TA Instruments, New Castle, DE, USA). A mass of between 1 and 5 mg of sample was weighed into anodized aluminum hermetic pans (TA Instruments) with an empty pan used as a reference. DSC measurements were performed at a heating rate of 10 &#xB0;C/min from 0 to 350 &#xB0;C. Ultrapure nitrogen gas was used as the purging gas at a rate of 50 mL/min. Analysis of thermograms was conducted using TA Universal Analysis (TA Instruments). All measurements were carried out in triplicate.</p>
+          <p>Solid-state phase transitions of the lyophilized nanoparticles were observed using cross-polarized light HSM similarly to previously reported [<xref ref-type="bibr" rid="B39-pharmaceutics-14-00638">39</xref>]. Microscopy was conducted using a Leica DMLP cross-polarized microscope (Leica Mircosystems, Wetzlar, Germany) equipped with a Mettler FP 80 central processor and FP82 hot stage (Mettler Toldeo, Columbus, OH, USA). Lyophilized particles were mounted on a microscope slide and heated at a rate of 10 &#xB0;C/min from 25 &#xB0;C to 300 &#xB0;C. The images were digitally captured using a Nikon Coolpix 8800 digital camera (Nikon, Tokyo, Japan) under 100&#xD7; total magnification.</p>
+        </sec>
+        <sec id="sec2dot2dot10-pharmaceutics-14-00638">
+          <title>2.2.10. Residual Water Content Analysis by Karl Fischer Titration</title>
+          <p>The residual water content of lyophilized nanoparticles was quantified by Karl Fischer titration (KFT) colorimetric assay using a TitroLine<sup>&#xAE;</sup> 7500 trace titrator (SI Analytics, Mainz, Germany). Around 3&#x2013;7 mg of the sample was dissolved in 5 mL AQUA STAR anhydrous acetonitrile and injected into the titration cell. The measured moisture content was expressed in percentage as the result of the KFT. All measurements were completed in triplicate. </p>
+        </sec>
+        <sec id="sec2dot2dot11-pharmaceutics-14-00638">
+          <title>2.2.11. Statistical Analysis</title>
+          <p>Comparison of the difference between three groups was performed by one-way analysis of variance (ANOVA) with Tukey&#x2019;s <italic>post hoc</italic> test for comparisons (Prism 9.0, GraphPad Software, San Diego, CA, USA). In all cases, the <italic>p</italic> values of 0.05 or less were considered significant.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-pharmaceutics-14-00638" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-pharmaceutics-14-00638">
+        <title>3.1. Solubility of Formoterol Fumarate Dihydrate in Aqueous and Organic Media</title>
+        <p>The solubility of formoterol and its salt formoterol fumarate dihydrate has previously been described in water and some organic media; however, the solvents for which published literature exists are those most commonly used in inhalation drug development, such as various ionic and ethanol solutions, not the organic solvents most commonly used in the preparation of polymeric nanoparticles. The solubility of the fumarate salt of formoterol has a water solubility of 1.16 &#xB1; 0.02 mg/mL at 25 &#xB0;C. Solubility is increased with the increasing volume fraction of low molecular weight alcohols such as ethanol and methanol (<xref ref-type="fig" rid="pharmaceutics-14-00638-f001">Figure 1</xref>A). Similar to previously reported studies, formoterol fumarate dihydrate likely forms a less soluble solvate with ethanol at volume fractions greater than 50% and sees a subsequent reduction in solubility with increasing cosolvent fraction. Similar solvent formation was not seen in water&#x2013;methanol mixtures; however, this has been previously reported under different experimental conditions. Formoterol fumarate dihydrate sees increasing solubility in highly basic or acidic conditions (<xref ref-type="fig" rid="pharmaceutics-14-00638-f001">Figure 1</xref>B) as formoterol fumarate dihydrate contains both acidic and basic pKa(s) of around 8.6 and 9.8, respectively. Solubility of formoterol fumarate dihydrate in common non-ionic surfactants polyvinyl alcohol (PVA) and Pluronic<sup>&#xAE;</sup> F127 remains unchanged at concentrations ranging from 0.1% to 5% in aqueous solution. Solubilization is increased, however, in a concentration-dependent manner above the critical micelle concentration of sodium cholate (12 mM or 0.52%), an ionic surfactant (<xref ref-type="fig" rid="pharmaceutics-14-00638-f001">Figure 1</xref>C). Solubility in the common organic solvents dichloromethane (DCM), chloroform, acetonitrile, and acetate are also reported (<xref ref-type="table" rid="pharmaceutics-14-00638-t001">Table 1</xref>), with acetone having the greatest solubility of 0.063 &#xB1; 0.004 mg/mL.</p>
+      </sec>
+      <sec id="sec3dot2-pharmaceutics-14-00638">
+        <title>3.2. Effect of Polymeric Nanoparticle Synthesis Parameters on Formoterol Drug Loading</title>
+        <p>Achieving significant drug loading of formoterol in PLGA nanoparticles is complicated by the low solubility in organic media, such as DCM and acetonitrile, where PLGA is freely soluble, compared to low molecular weight alcohols such as methanol, where PLGA and PLGA conjugates are practically insoluble. Drug loading of formoterol in PLGA-PEG nanoparticles prepared by single emulsion is improved with increasing PLGA molecular weight (35 mg/mL PLGA-PEG held constant), from 0.04% to 0.17% (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>A), and increasing PLGA-PEG concentration (using 55,000 MW PLGA-PEG), up to 0.63% (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>B). This was the maximum drug loading achievable by a single emulsion solvent evaporation method. While the higher molecular weight polymer (55,000 MW PLGA) achieved increased drug loading, the increases in drug loading are offset by increased nanoparticle size (data not shown) and reportedly increased degradation time in vivo [<xref ref-type="bibr" rid="B3-pharmaceutics-14-00638">3</xref>,<xref ref-type="bibr" rid="B4-pharmaceutics-14-00638">4</xref>,<xref ref-type="bibr" rid="B5-pharmaceutics-14-00638">5</xref>], which could potentially lead to accumulation and toxicity. For these reasons, 20,000 MW PLGA polymers were selected for further study. </p>
+        <p>Formoterol loading is further enhanced by changing from a single to double emulsion method and modification of the PEG terminus. Nanoparticles were prepared by water-in-oil-in-water double emulsion using PLGA-PEG, carboxylic acid modified PEG, or amine-modified PEG. PLGA-PEG-COOH reduced drug loading compared to methyl terminated PEG from 0.15% to 0.01%, whereas PLGA-PEG-NH<sub>2</sub> significantly increased drug loading to 1.39% (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>C). </p>
+        <p>Interaction between the formoterol and the inner aqueous surfactant was evaluated using 10 mg/mL 20,000 MW PLGA-PEG-NH<sub>2</sub> and either 1% PVA, 12 mM sodium cholate or 10 mM sodium deoxycholate as the inner phase. The use of 10 mM sodium deoxycholate was required as stable nanoparticles did not form using 12 mM sodium deoxycholate. The use of the nonionic homopolymer surfactant PVA as the inner phase showed increased (0.22%) drug loading compared to their equivalent single emulsion prepared particles (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>D). However, the use of the ionic surfactant sodium cholate showed a significant increase in drug loading, up to 1.66%. This increase in loading is completely nullified by the use of 10 mM sodium deoxycholate, which differs from sodium cholate by only the 7&#x3B1;-hydroxyl group (structures <xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>E), suggesting this interaction is critical to the improved loading seen by sodium cholate.</p>
+      </sec>
+      <sec id="sec3dot3-pharmaceutics-14-00638">
+        <title>3.3. Effect of Polymeric Nanoparticle Synthesis Parameters on Particle Size</title>
+        <p>The impact of sonication and PGLA concentration on particle size was evaluated with the goal of achieving particles with median hydrodynamic diameters between 300 and 500 nm. Sonication time was the first parameter to be evaluated for double emulsion-prepared particles (10 mg/mL PLGA-PEG-NH<sub>2</sub>, 10 mM sodium cholate inner phase), increasing the secondary sonication from 30 to 600 s. Initially, there was a precipitous decrease in median diameter, from over 500 nm to 292 nm with 90 s of sonication. Further increases in sonication time resulted in no significant change in particle size (<xref ref-type="fig" rid="pharmaceutics-14-00638-f003">Figure 3</xref>A).</p>
+        <p>The impact of polymer concentration was additionally determined at concentrations of PLGA-PEG-NH<sub>2</sub> ranging from 10 to 100 mg/mL. All particles were prepared by double-emulsion, used 12 mM sodium cholate as an inner phase, and were sonicated for 180 s during preparation of the secondary emulsion. Particle size proved to be extremely sensitive to increasing PLGA concentration, with particle size increasing proportionally to the increase in polymer (<xref ref-type="fig" rid="pharmaceutics-14-00638-f003">Figure 3</xref>B).</p>
+        <p>The impact of lyophilization was assessed following purification of the nanoparticles. To determine the impact of cryoprotectant selection and concentration on primary particle size, 1 mL of double-emulsion (12 mM sodium cholate inner phase, 180 s sonication) prepared PLGA-PEG-NH<sub>2</sub> nanoparticles at a concentration of 10 mg/mL were lyophilized in either 2.5%, 5%, or 10% of either sucrose, trehalose, or d-mannitol for 72 h. Resuspended nanoparticles lyophilized with mannitol as the cryoprotectant showed significantly increased particle size, over 1 &#x3BC;m (<xref ref-type="fig" rid="pharmaceutics-14-00638-f004">Figure 4</xref>). Conversely, both sucrose and trehalose cryoprotectants demonstrated decreased particle size growth post lyophilization with increasing cryoprotectant concentration, with sucrose performing slightly better than trehalose at all concentrations. For further characterization studies using nanoparticles lyophilized with cryoprotectants, 5% cryoprotectant concentration was used.</p>
+      </sec>
+      <sec id="sec3dot4-pharmaceutics-14-00638">
+        <title>3.4. Impact of Nanoparticle Synthesis Parameters on Zeta Potential</title>
+        <p>Nanoparticle zeta potential following washing was determined in 0.1&#xD7; normal saline at 25 &#xB0;C and neutral pH. Nanoparticle zeta potential was most strongly influenced by modification of PEG group (<xref ref-type="fig" rid="pharmaceutics-14-00638-f005">Figure 5</xref>). Methyl-endcapped PEG had a zeta potential of &#x2212;0.792 &#xB1; 0.284 mV, whereas amine modified PEG had a positive zeta potential of 14.133 &#xB1; 0.404 mV and carboxylic acid modified PEG had a negative zeta potential of &#x2212;34.87 &#xB1; 0.945 mV.</p>
+      </sec>
+      <sec id="sec3dot5-pharmaceutics-14-00638">
+        <title>3.5. Impact of Nanoparticle Synthesis Parameters on Drug Release</title>
+        <p>Formoterol release is significantly altered by the method of synthesis. Single and double emulsion solvent evaporation methods were assessed using 50 mg/mL 55,000 MW PLGA-PEG, 180 s sonication time and using 1% PVA as the inner aqueous phase. Release was measured out to 1 week (144 h) in PBS at 37 &#xB0;C with constant stirring. Nanoparticles prepared by single emulsion showed significant burst release, with 80 and 90% of their entrapped drug released within the first 3 and 24 h, respectively. Comparatively, nanoparticles prepared by double emulsion demonstrated a slower initial phase of release, with 3-h release at 17% and 24-h release between 60 and 70% (<xref ref-type="fig" rid="pharmaceutics-14-00638-f006">Figure 6</xref>A). Analysis of the release kinetics showed non-fickian/anomalous diffusion (n &gt; 0.43) for single emulsion-prepared nanoparticles and quasi-fickian diffusion for (n &lt; 0.43) for double emulsion-prepared nanoparticles (<xref ref-type="table" rid="pharmaceutics-14-00638-t002">Table 2</xref>).</p>
+        <p>Modification of the inner phase surfactant also impacted the initial release. Nanoparticle were prepared using 10 mg/mL 20,000 MW PLGA-PEG-NH<sub>2</sub> and by varying the inner phase between 1% PVA, 12 mM sodium cholate or 10 mM sodium deoxycholate. The PVA and sodium cholate-prepared particles showed slight differences in 3-h burse release (45 and 38%, respectively) and both were significantly lower than the sodium deoxycholate-prepared particles, which showed 65% drug release by 3-h (<xref ref-type="fig" rid="pharmaceutics-14-00638-f006">Figure 6</xref>B). Analysis of release kinetics showed no significant difference in release exponent between PVA and sodium cholate inner phases; however, there was a significant (<italic>p</italic> &lt; 0.05) difference between those and sodium deoxycholate (<xref ref-type="table" rid="pharmaceutics-14-00638-t002">Table 2</xref>). These differences were less apparent during the sustained release phase (time &gt; 24 h). Finally, increasing concentration of PLGA-PEG-NH<sub>2</sub> during nanoparticle synthesis using 12 mM sodium cholate as the inner phase resulted in a decreased percentage of formoterol released within the first 3 h and increased rate of release beyond 24 h (<xref ref-type="fig" rid="pharmaceutics-14-00638-f006">Figure 6</xref>C). Increasing polymer concentration resulted in increasing the release exponent towards fickian (n = 0.43) release (<xref ref-type="table" rid="pharmaceutics-14-00638-t002">Table 2</xref>).</p>
+      </sec>
+      <sec id="sec3dot6-pharmaceutics-14-00638">
+        <title>3.6. Characterization of Nanoparticle Surface Morphology</title>
+        <p>The surface characteristics of nanoparticles prepared by double emulsion were assessed. Nanoparticles of PLGA-PEG with sodium cholate inner phase showed a high degree of surface roughness and size irregularity as well as a tendency to agglomerate (<xref ref-type="fig" rid="pharmaceutics-14-00638-f007">Figure 7</xref>A). Nanoparticles prepared by double-emulsion with PLGA-PEG-COOH and PLGA-PEG-NH<sub>2</sub> with sodium cholate inner phase were similarly sized, producing spherical particles that did not form aggregates and had smooth surface features (<xref ref-type="fig" rid="pharmaceutics-14-00638-f007">Figure 7</xref>B,C).</p>
+      </sec>
+      <sec id="sec3dot7-pharmaceutics-14-00638">
+        <title>3.7. X-ray Powder Diffraction (XRPD)</title>
+        <p>X-ray diffractograms of nanoparticle raw materials (PLGA-PEG-NH<sub>2</sub>, formoterol fumarate dihydrate and cryoprotectants) as well as lyophilized nanoparticles with and without cryoprotection were obtained (<xref ref-type="fig" rid="pharmaceutics-14-00638-f008">Figure 8</xref>). The diffraction pattern of raw materials formoterol fumarate dihydrate, sucrose, and trehalose showed multiple sharp peaks across the scanned range, indicating long range molecular order consistent with crystallinity (<xref ref-type="fig" rid="pharmaceutics-14-00638-f008">Figure 8</xref>A). Raw polymer samples and all lyophilized-prepared nanoparticles did not contain any sharp crystalline peaks (<xref ref-type="fig" rid="pharmaceutics-14-00638-f008">Figure 8</xref>A,B).</p>
+      </sec>
+      <sec id="sec3dot8-pharmaceutics-14-00638">
+        <title>3.8. Thermal Analysis of Lyophilized Nanoparticles</title>
+        <p>Thermal analysis of nanoparticle components formoterol fumarate dihydrate, PLGA-PEG- NH<sub>2</sub>, sucrose and trehalose as well as lyophilized nanoparticles with or without cryoprotectants are summarized in (<xref ref-type="table" rid="pharmaceutics-14-00638-t003">Table 3</xref>).</p>
+        <p>For formoterol fumarate dihydrate, there was a bimodal endotherm with an initial peak of 104 &#xB0;C and a main peak of 130 &#xB0;C. Above 150 &#xB0;C, thermal decomposition was seen in the form of a jagged baseline (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>A). For PLGA-PEG-NH<sub>2</sub> polymer, there was a clear glass transition peak (T<sub>g</sub>) from 1&#x2013;43 &#xB0;C combined with an endotherm at 48 &#xB0;C and a broad decomposition starting at 250 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>B). Raw sucrose showed a sharp endotherm at 189 &#xB0;C, followed by a broad decomposition endotherm at 220 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>C). Trehalose dihydrate showed a sharp endotherm at 95 &#xB0;C, followed by a broad endotherm at 193 &#xB0;C, followed by decomposition (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>D). PLGA-PEG-NH<sub>2</sub> particles lyophilized without cryoprotectant showed slightly decreased T<sub>g</sub> of 35&#x2013;36 &#xB0;C compared to the raw polymer and a similar first endotherm at 44 &#xB0;C, followed by a broad endotherm starting from 82 &#xB0;C and peaking at 112 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>E). Nanoparticles lyophilized with 5% sucrose as a cryoprotectant showed an increased T<sub>g</sub> and first endotherm comparted to the raw polymer, 50&#x2013;54 &#xB0;C and 57 &#xB0;C, respectively. Additionally, the broad endotherm at 96 &#xB0;C transitioned into an exothermic peak at 148 &#xB0;C, followed by an endotherm at 184 &#xB0;C and secondary endotherm at 222 &#xB0;C leading to decomposition (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>F). Finally, nanoparticles lyophilized with trehalose as a cryoprotectant had a similar T<sub>g</sub> to the raw polymer, 43&#x2013;46 &#xB0;C followed by a broad endotherm starting from 58 &#xB0;C and peaking at 86 &#xB0;C. No other endotherms were detected until decomposition started above 250 &#xB0;C.</p>
+        <p>Lyophilized nanoparticles were also evaluated by cross-polarized HSM. All three particles (lyophilized without cryoprotectant, with sucrose cryoprotectant and with trehalose cryoprotectant) were dark and lacked birefringence at 25 &#xB0;C and 37 &#xB0;C. At 60 &#xB0;C, the cryoprotectant free particles began melting, a process that continued until melting was fully completed at 130 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f010">Figure 10</xref>A). Both formulations lyophilized with cryoprotectants did not have observable melts until closer to 100 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f010">Figure 10</xref>B,C). Nanoparticles lyophilized with sucrose exhibited a liquid crystal transition, as noted by the marked diffuse birefringence at 130 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f010">Figure 10</xref>B). Both lyophilates had completely melted by 160 &#xB0;C and there were no observable transitions after that temperature.</p>
+      </sec>
+      <sec id="sec3dot9-pharmaceutics-14-00638">
+        <title>3.9. Water Content Analysis by Karl Fischer Titration</title>
+        <p>Water content was determined for double emulsion-prepared lyophilates with and without cryoprotection (<xref ref-type="table" rid="pharmaceutics-14-00638-t004">Table 4</xref>). For lyophilates of PLGA-PEG without cryoprotection, water content was 1.38 &#xB1; 0.20%. Comparatively, amine modification of the PEG group increased water content to 2.20 &#xB1; 0.61%. Lyophilization with 5% of either sucrose or trehalose resulted in significantly (<italic>p</italic> &lt; 0.05) reduced water content, 0.78 &#xB1; 0.17% and 0.80 &#xB1; 0.19%, respectively.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-pharmaceutics-14-00638" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>Formoterol fumarate dihydrate is an FDA-approved long-acting beta-2 adrenergic agonist that has been approved for the treatment of asthma and chronic obstructive pulmonary disease [<xref ref-type="bibr" rid="B42-pharmaceutics-14-00638">42</xref>,<xref ref-type="bibr" rid="B43-pharmaceutics-14-00638">43</xref>] and has shown promise in treating mitochondrial dysfunction in a variety of diseases [<xref ref-type="bibr" rid="B14-pharmaceutics-14-00638">14</xref>,<xref ref-type="bibr" rid="B15-pharmaceutics-14-00638">15</xref>,<xref ref-type="bibr" rid="B16-pharmaceutics-14-00638">16</xref>,<xref ref-type="bibr" rid="B18-pharmaceutics-14-00638">18</xref>,<xref ref-type="bibr" rid="B20-pharmaceutics-14-00638">20</xref>,<xref ref-type="bibr" rid="B21-pharmaceutics-14-00638">21</xref>]. As a raw material it exists as a crystalline powder that has been reported to be slightly soluble in water, soluble and sparingly soluble in methanol and ethanol, respectively, and practically insoluble in acetone and diethyl ether. The objective of this study was to develop a method of entrapping formoterol within a polymeric nanoparticle 300&#x2013;500 nm in diameter for sustained drug release. Initially, an evaluation of the solubility of formoterol fumarate dihydrate (FFD) was required to determine optimal nanoparticle preparation, given FFD is only slightly soluble in water (1.16 &#xB1; 0.02 mg/mL) (<xref ref-type="fig" rid="pharmaceutics-14-00638-f001">Figure 1</xref>), which is in good agreement with the published literature [<xref ref-type="bibr" rid="B41-pharmaceutics-14-00638">41</xref>]. Ethanol/Methanol and water mixtures show exponentially increasing solubilities of FFD with increasing alcohol content (<xref ref-type="fig" rid="pharmaceutics-14-00638-f001">Figure 1</xref>A). However, above 50% volume fraction of ethanol there is a decrease in solubility likely through the formation of an ehtanolate, which has been described previously [<xref ref-type="bibr" rid="B41-pharmaceutics-14-00638">41</xref>]. Solubility in common organics used in nanoparticle syntheses was also established as low, with FFD being practically insoluble in dichloromethane (DCM), chloroform, acetonitrile, and acetone (<xref ref-type="table" rid="pharmaceutics-14-00638-t001">Table 1</xref>). Solubility in nonionic surfactants including the homopolymer PVA and the triblock copolymer Pluronic F127 was unchanged; however, it increased significantly with the addition of ionic surfactant sodium cholate, with solubility increasing above the critical micelle concentration (12 mM or 0.5%) (<xref ref-type="fig" rid="pharmaceutics-14-00638-f001">Figure 1</xref>C). Given the apparent amphiphilic nature of FFD, both single (oil-in-water) and double (water-in-oil-in-water) methods of nanoparticle synthesis were evaluated.</p>
+      <p>Achieving significant drug loading by single emulsion solvent evaporation methods was challenging. Due to the low solubility of FFD in the common solvents DCM and chloroform, methanol, selected due to the decreased likelihood of forming solvates with formoterol, was added to allow sufficient FFD concentrations in the organic phase. Increased drug loading was observed with increased molecular weight of PLGA as well as increasing PLGA-PEG concentration in the organic phase (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>A,B), both of which are in agreement with previously reported trends in loading of hydrophobic drugs [<xref ref-type="bibr" rid="B44-pharmaceutics-14-00638">44</xref>,<xref ref-type="bibr" rid="B45-pharmaceutics-14-00638">45</xref>,<xref ref-type="bibr" rid="B46-pharmaceutics-14-00638">46</xref>]. Increasing PLGA concentration had a measured impact on nanoparticle size as well, with increasing polymer concentration resulting in increasing median hydrodynamic diameter <bold>(</bold><xref ref-type="fig" rid="pharmaceutics-14-00638-f003">Figure 3</xref>B), which has also been previously reported for single emulsion prepared nanoparticles [<xref ref-type="bibr" rid="B46-pharmaceutics-14-00638">46</xref>,<xref ref-type="bibr" rid="B47-pharmaceutics-14-00638">47</xref>].</p>
+      <p>Sonication time was additionally optimized, with median particle diameter being reduced with increasing sonication time up to 90 s, and no significant change in median diameter with additional sonication time (<xref ref-type="fig" rid="pharmaceutics-14-00638-f003">Figure 3</xref>A).</p>
+      <p>Single emulsion nanoparticles were prepared; however, they exhibited significant burst release (<xref ref-type="fig" rid="pharmaceutics-14-00638-f006">Figure 6</xref>A), with over 90% of the entrapped drug being released within the first 24 h. This, along with first-order release kinetics (<xref ref-type="table" rid="pharmaceutics-14-00638-t002">Table 2</xref>), suggests that in the PLGA-PEG single emulsion-prepared particles, the formoterol was not well entrapped within the polymer matrix but rather resided predominantly on the PLGA-PEG surface and the formoterol release was primarily diffusion limited.</p>
+      <p>In an effort to improve drug loading and the slow release of formoterol, a double emulsion solvent evaporation method of preparing nanoparticles was evaluated along with modifications to the polymer. By modifying the PEG group with either terminal acidic or amine residues. Nanoparticles prepared using 10 mg/mL polymer and a 1% PVA inner phase were compared and showed significantly improved (<italic>p</italic> &lt; 0.05) drug loading with the amine modified polymer compared to both methyl and acidic residue terminated PEG. This was potentially due to the amine residues on the surface and microdomains, described by Rabanel et al. (2014) [<xref ref-type="bibr" rid="B48-pharmaceutics-14-00638">48</xref>], within the polymer matrix interacting with formoterol and preventing its diffusion out of the organic phase as the polymer hardened. The modifications to the PEG surface moieties also had the effect of modifying the zeta potential of the prepared particles, with amine terminated PEG particles having a more positive zeta potential and carboxylic acid-terminated PEG particles having a more negative zeta potential (<xref ref-type="fig" rid="pharmaceutics-14-00638-f005">Figure 5</xref>). The impact of greater (more non-zero) surface potential is likely greater physical stability in suspension as the particles with higher surface charges are less likely to form agglomerates [<xref ref-type="bibr" rid="B49-pharmaceutics-14-00638">49</xref>,<xref ref-type="bibr" rid="B50-pharmaceutics-14-00638">50</xref>,<xref ref-type="bibr" rid="B51-pharmaceutics-14-00638">51</xref>].</p>
+      <p>Further modification to the double emulsion method by modifying the inner phase was accomplished by exchanging the 1% PVA for a 0.5% solution of sodium cholate, which significantly increased drug loading (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>D). The increase in loading is not likely due to any increased viscosity of the sodium cholate solution, which has a literature value (0.90&#x2013;0.91 mPa s [<xref ref-type="bibr" rid="B52-pharmaceutics-14-00638">52</xref>]) of approximately half that of a 1% PVA solution (1.6&#x2013;2.5 mPa s [<xref ref-type="bibr" rid="B53-pharmaceutics-14-00638">53</xref>]) at 25 &#xB0;C. The improved drug loading was completely ameliorated when the sodium cholate was switched for sodium deoxycholate at the same concentration. The 7&#x3B1;-hydroxyl group of sodium cholate, critical in forming a hydrophilic axis in sodium cholate secondary structures [<xref ref-type="bibr" rid="B54-pharmaceutics-14-00638">54</xref>,<xref ref-type="bibr" rid="B55-pharmaceutics-14-00638">55</xref>], was not present in the sodium deoxycholate (<xref ref-type="fig" rid="pharmaceutics-14-00638-f002">Figure 2</xref>E), suggesting that interactions with this hydrophilic moiety were responsible for the increased loading. The addition of sodium cholate also appears to slow formoterol release. Nanoparticles prepared with sodium cholate have a significantly (<italic>p</italic> &lt; 0.05) slower release than those made with sodium deoxycholate (<xref ref-type="fig" rid="pharmaceutics-14-00638-f006">Figure 6</xref>B, <xref ref-type="table" rid="pharmaceutics-14-00638-t002">Table 2</xref>). However, there was no significant difference between particles prepared with either 0.5% sodium cholate or 1% PVA inner phases. Lastly, there was no significant impact on drug release kinetics from increasing amine-terminated PEG polymer concentration in double emulsion-prepared nanoparticles (<xref ref-type="fig" rid="pharmaceutics-14-00638-f006">Figure 6</xref>C). However, there is a clear trend between increasing Fickian release character and increasing polymer concentration, with n trending towards 0.43 (<xref ref-type="table" rid="pharmaceutics-14-00638-t002">Table 2</xref>). Differences in drug loading, especially between single and double emulsion-prepared particles, would also impact release kinetics as greater concentration gradients would directly impact diffusion limited release mechanisms.</p>
+      <p>Selecting a suitable means of lyophilization is a critical and often overlooked aspect of nanoparticle synthesis methods, as the changes in solid state physicochemical properties can have significant impacts on particle size, stability, and drug release [<xref ref-type="bibr" rid="B56-pharmaceutics-14-00638">56</xref>,<xref ref-type="bibr" rid="B57-pharmaceutics-14-00638">57</xref>,<xref ref-type="bibr" rid="B58-pharmaceutics-14-00638">58</xref>]. In this study, we assessed the impact of increasing concentrations of three cryoprotectants: sucrose, trehalose, and mannitol. Mannitol had a significantly detrimental impact on primary particle size, with median hydrodynamic diameter increasing ~1 &#xB5;m over the range tested (<xref ref-type="fig" rid="pharmaceutics-14-00638-f004">Figure 4</xref>). Sucrose and trehalose cryoprotectants were much improved, with changes in nanoparticle size decreasing with increased cryoprotectant. Both sucrose and trehalose saw less than 30 nm increases in particle size at 5% cryoprotectant (<xref ref-type="fig" rid="pharmaceutics-14-00638-f004">Figure 4</xref>).</p>
+      <p>The impact of nanoparticle synthesis and lyophilization is apparent on powder analysis. With raw FFD, bound water is initially removed in an endotherm preceding the main melting endotherm at 130 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>A), which is in good agreement with the literature [<xref ref-type="bibr" rid="B41-pharmaceutics-14-00638">41</xref>]. This melting is not apparent in any of the prepared nanoparticles (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>E&#x2013;G), potentially due to formoterol being in an amorphous state [<xref ref-type="bibr" rid="B40-pharmaceutics-14-00638">40</xref>,<xref ref-type="bibr" rid="B41-pharmaceutics-14-00638">41</xref>]. This is further supported by the lack of sharp peaks in the XRPD patterns (<xref ref-type="fig" rid="pharmaceutics-14-00638-f008">Figure 8</xref>) of the lyophilized nanoparticles, which indicates no long-range molecular order and is consistent with an amorphous particle. Comparing the glass transition temperatures (T<sub>g</sub>) of raw PLGA-PEG-NH<sub>2</sub> polymer to that of lyophilized nanoparticles without cryoprotectant shows a ~6 &#xB0;C decrease in T<sub>g</sub>, which is potentially due to greater adsorbed water in the lyophilized particles (<xref ref-type="table" rid="pharmaceutics-14-00638-t004">Table 4</xref>). Cryoprotection with either sucrose or trehalose showed no significant change in polymer glass transition (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>F,G) and resulted in higher initial endotherm, which is attributed to the melting of PEG groups, and is visible in HSM micrographs (<xref ref-type="fig" rid="pharmaceutics-14-00638-f010">Figure 10</xref>). Cryoprotection of nanoparticles with sucrose results in an exotherm not present in the raw sucrose, a recrystallization peak at 148 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>F), which is confirmed by birefringency above 130 &#xB0;C in HSM micrographs (<xref ref-type="fig" rid="pharmaceutics-14-00638-f010">Figure 10</xref>B), as has been previously described following sucrose lyophilization [<xref ref-type="bibr" rid="B59-pharmaceutics-14-00638">59</xref>,<xref ref-type="bibr" rid="B60-pharmaceutics-14-00638">60</xref>]. Lyophilization of nanoparticles with trehalose produces no similar amorphous-to-crystalline transition, only a broad melting endotherm between 60 and 120 &#xB0;C (<xref ref-type="fig" rid="pharmaceutics-14-00638-f009">Figure 9</xref>G and <xref ref-type="fig" rid="pharmaceutics-14-00638-f010">Figure 10</xref>C). Increased adsorbed water and decreased T<sub>g</sub>, as indicated in nanoparticles lyophilized without cryoprotection, could negatively impact the solid-state stability of nanoparticles as well as impact the drug release [<xref ref-type="bibr" rid="B61-pharmaceutics-14-00638">61</xref>,<xref ref-type="bibr" rid="B62-pharmaceutics-14-00638">62</xref>,<xref ref-type="bibr" rid="B63-pharmaceutics-14-00638">63</xref>,<xref ref-type="bibr" rid="B64-pharmaceutics-14-00638">64</xref>,<xref ref-type="bibr" rid="B65-pharmaceutics-14-00638">65</xref>], further reinforcing the importance of cryoprotection when lyophilizing nanoparticles. In these experiments, as stated in the Methods section, the prepared and lyophilized nanoparticles are stored at &#x2212;20 &#xB0;C until use. Under these conditions, it is highly unlikely that chemical degradation of the formoterol or polymer would occur. Additionally, the lowered molecular mobility of the polymer and entrapped drug at these temperatures makes spontaneous release of the drug highly unlikely as well.</p>
+    </sec>
+    <sec id="sec5-pharmaceutics-14-00638" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This comprehensive and systematic study focused on the design, development, characterization, and in vitro drug release of PEGylated PLGA polymeric nanoparticles containing formoterol drug for sustained release drug delivery applications. Initial formoterol drug loading, nanoparticle size, and in vitro drug release kinetics of the polymeric nanoparticles were improved upon by modification of synthesis parameters such as polymer molecular weight, polymer concentration, PEG modification, surfactant selection, and sonication time. These changes resulted in significantly improved drug loading and sustained release over the course of 7 days. Solid state characterization of the nanoparticles lyophilates has also been reported and shows the importance of cryoprotectant selection in preserving nanoparticle characteristics.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, E.L.V., R.G.S. and H.M.M.; methodology, E.L.V., D.E.-B., R.G.S. and H.M.M.; formal analysis, E.L.V., D.E.-B., R.G.S. and H.M.M.; investigation, E.L.V., D.E.-B., R.G.S. and H.M.M.; resources, R.G.S. and H.M.M.; data curation, E.L.V., D.E.-B., R.G.S. and H.M.M.; writing&#x2014;original draft preparation, E.L.V., D.E.-B., R.G.S. and H.M.M.; writing&#x2014;review and editing, E.L.V., D.E.-B., R.G.S. and H.M.M.; project administration, R.G.S. and H.M.M.; funding acquisition, R.G.S. and H.M.M.; supervision, R.G.S. and H.M.M. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>All SEM images and data were collected in the W.M. Keck Center for Nano-Scale Imaging in the Department of Chemistry and Biochemistry at the University of Arizona with funding from the W.M. Keck Foundation Grant.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data presented in this study are available on request from the Corresponding Author.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-pharmaceutics-14-00638">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Couvreur</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nanoparticles in drug delivery: Past, present and future</article-title>
+          <source>Adv. Drug Deliv. Rev.</source>
+          <year>2013</year>
+          <volume>65</volume>
+          <fpage>21</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.addr.2012.04.010</pub-id>
+          <pub-id pub-id-type="pmid">22580334</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-pharmaceutics-14-00638">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Farokhzad</surname>
+              <given-names>O.C.</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of nanotechnology on drug delivery</article-title>
+          <source>ACS Nano</source>
+          <year>2009</year>
+          <volume>3</volume>
+          <fpage>16</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1021/nn900002m</pub-id>
+          <pub-id pub-id-type="pmid">19206243</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-pharmaceutics-14-00638">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chenthamara</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Subramaniam</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishnan</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Krishnaswamy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Essa</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>F.-H.</given-names>
+            </name>
+            <name>
+              <surname>Qoronfleh</surname>
+              <given-names>M.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Therapeutic efficacy of nanoparticles and routes of administration</article-title>
+          <source>Biomater. Res.</source>
+          <year>2019</year>
+          <volume>23</volume>
+          <fpage>20</fpage>
+          <pub-id pub-id-type="doi">10.1186/s40824-019-0166-x</pub-id>
+          <pub-id pub-id-type="pmid">31832232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-pharmaceutics-14-00638">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mansour</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Sohn</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Al-Ghananeem</surname>
+              <given-names>A.P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Materials for Pharmaceutical Dosage Forms: Molecular Pharmaceutics and Controlled Release Drug Delivery Aspects</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>3298</fpage>
+          <lpage>3322</lpage>
+          <pub-id pub-id-type="doi">10.3390/ijms11093298</pub-id>
+          <pub-id pub-id-type="pmid">20957095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-pharmaceutics-14-00638">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rhee</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>DeLuca</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Mansour</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustained-Release Injectable Drug Delivery Systems</article-title>
+          <source>Pharm. Technol. Spec. Issue-Drug Deliv.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>6</fpage>
+          <lpage>13</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-pharmaceutics-14-00638">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moghimi</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Hunter</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-circulating and target-specific nanoparticles: Theory to practice</article-title>
+          <source>Pharmacol. Rev.</source>
+          <year>2001</year>
+          <volume>53</volume>
+          <fpage>283</fpage>
+          <lpage>318</lpage>
+          <pub-id pub-id-type="pmid">11356986</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-pharmaceutics-14-00638">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Geissmann</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Jaimes</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Heller</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective Nanoparticle Targeting of the Renal Tubules</article-title>
+          <source>Hypertension</source>
+          <year>2018</year>
+          <volume>71</volume>
+          <fpage>87</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.1161/HYPERTENSIONAHA.117.09843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-pharmaceutics-14-00638">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muralidharan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mallory</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Malapit</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>D.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Mansour</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhalable PEGylated Phospholipid Nanocarriers and PEGylated Therapeutics for Respiratory Delivery as Aerosolized Colloidal Dispersions and Dry Powder Inhalers</article-title>
+          <source>Pharmaceutics</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>333</fpage>
+          <lpage>353</lpage>
+          <pub-id pub-id-type="doi">10.3390/pharmaceutics6020333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-pharmaceutics-14-00638">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <name>
+              <surname>Minton</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Gudas</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Heller</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoscale nanoparticles selectively target the renal proximal tubule epithelium</article-title>
+          <source>Nano Lett.</source>
+          <year>2015</year>
+          <volume>15</volume>
+          <fpage>2358</fpage>
+          <lpage>2364</lpage>
+          <pub-id pub-id-type="doi">10.1021/nl504610d</pub-id>
+          <pub-id pub-id-type="pmid">25811353</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-pharmaceutics-14-00638">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Jaimes</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Heller</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nanomedicines for kidney diseases</article-title>
+          <source>Kidney Int.</source>
+          <year>2016</year>
+          <volume>90</volume>
+          <fpage>740</fpage>
+          <lpage>745</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.kint.2016.03.041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-pharmaceutics-14-00638">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Agati</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Jaimes</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Heller</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective nanoparticle-mediated targeting of renal tubular Toll-like receptor 9 attenuates ischemic acute kidney injury</article-title>
+          <source>Kidney Int.</source>
+          <year>2020</year>
+          <volume>98</volume>
+          <fpage>76</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.kint.2020.01.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-pharmaceutics-14-00638">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Chun</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>T.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Target-specific cellular uptake of PLGA nanoparticles coated with poly(L-lysine)-poly(ethylene glycol)-folate conjugate</article-title>
+          <source>Langmuir</source>
+          <year>2005</year>
+          <volume>21</volume>
+          <fpage>8852</fpage>
+          <lpage>8857</lpage>
+          <pub-id pub-id-type="doi">10.1021/la0502084</pub-id>
+          <pub-id pub-id-type="pmid">16142970</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-pharmaceutics-14-00638">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beck-Broichsitter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gauss</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gessler</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Seeger</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Kissel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Schmehl</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pulmonary targeting with biodegradable salbutamol-loaded nanoparticles</article-title>
+          <source>J. Aerosol. Med. Pulm. Drug Deliv.</source>
+          <year>2010</year>
+          <volume>23</volume>
+          <fpage>47</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="doi">10.1089/jamp.2009.0759</pub-id>
+          <pub-id pub-id-type="pmid">19778266</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-pharmaceutics-14-00638">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jesinkey</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Funk</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Stallons</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Wills</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Megyesi</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Beeson</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Formoterol restores mitochondrial and renal function after ischemia-reperfusion injury</article-title>
+          <source>J. Am. Soc. Nephrol.</source>
+          <year>2014</year>
+          <volume>25</volume>
+          <fpage>1157</fpage>
+          <lpage>1162</lpage>
+          <pub-id pub-id-type="doi">10.1681/ASN.2013090952</pub-id>
+          <pub-id pub-id-type="pmid">24511124</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-pharmaceutics-14-00638">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cleveland</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Brosius</surname>
+              <given-names>F.C.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of mitochondrial dynamics and energetics in the diabetic renal proximal tubule by the &#x3B2;</article-title>
+          <source>Am. J. Physiol. Renal. Physiol.</source>
+          <year>2020</year>
+          <volume>319</volume>
+          <fpage>F773</fpage>
+          <lpage>F779</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajprenal.00427.2020</pub-id>
+          <pub-id pub-id-type="pmid">32954853</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-pharmaceutics-14-00638">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scholpa</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Corum</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Narang</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tomlinson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rabchevsky</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pharmacological Stimulation of Mitochondrial Biogenesis Using the Food and Drug Administration-Approved &#x3B2;</article-title>
+          <source>J. Neurotrauma</source>
+          <year>2019</year>
+          <volume>36</volume>
+          <fpage>962</fpage>
+          <lpage>972</lpage>
+          <pub-id pub-id-type="doi">10.1089/neu.2018.5669</pub-id>
+          <pub-id pub-id-type="pmid">30280980</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-pharmaceutics-14-00638">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scholpa</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Simmons</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Crossman</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Time-to-treatment window and cross-sex potential of Beta 2-adrenergic receptor-induced mitochondrial biogenesis-mediated recovery after spinal cord injury</article-title>
+          <source>Toxicol. Appl. Pharmacol.</source>
+          <year>2021</year>
+          <volume>411</volume>
+          <fpage>115366</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.taap.2020.115366</pub-id>
+          <pub-id pub-id-type="pmid">33316273</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-pharmaceutics-14-00638">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arif</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Solanki</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Srivastava</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rahman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fitzgibbon</surname>
+              <given-names>W.R.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Budisavljevic</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Baicu</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Zile</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Megyesi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mitochondrial biogenesis induced by the &#x3B2;2-adrenergic receptor agonist formoterol accelerates podocyte recovery from glomerular injury</article-title>
+          <source>Kidney Int.</source>
+          <year>2019</year>
+          <volume>96</volume>
+          <fpage>656</fpage>
+          <lpage>673</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.kint.2019.03.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-pharmaceutics-14-00638">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vekaria</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>W.B.</given-names>
+            </name>
+            <name>
+              <surname>Scholpa</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Spry</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Gooch</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Prince</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>P.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Formoterol, a beta-2-adrenoreceptor agonist, induces mitochondrial biogenesis and promotes cognitive recovery after traumatic brain injury</article-title>
+          <source>Neurobiol. Dis.</source>
+          <year>2020</year>
+          <volume>140</volume>
+          <fpage>104866</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.nbd.2020.104866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-pharmaceutics-14-00638">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bhargava</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial energetics in the kidney</article-title>
+          <source>Nat. Rev. Nephrol.</source>
+          <year>2017</year>
+          <volume>13</volume>
+          <fpage>629</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrneph.2017.107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-pharmaceutics-14-00638">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cameron</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Gibbs</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Dupre</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Megyesi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Beeson</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proximal Tubule Beta-2 Adrenergic Receptor Mediates Formoterol-Induced Recovery of Mitochondrial and Renal Function After Ischemia-Reperfusion Injury</article-title>
+          <source>J. Pharmacol. Exp. Ther.</source>
+          <year>2019</year>
+          <volume>369</volume>
+          <fpage>173</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1124/jpet.118.252833</pub-id>
+          <pub-id pub-id-type="pmid">30709866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-pharmaceutics-14-00638">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levine</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Leenen</surname>
+              <given-names>F.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of beta 1-receptors and vagal tone in cardiac inotropic and chronotropic responses to a beta 2-agonist in humans</article-title>
+          <source>Circulation</source>
+          <year>1989</year>
+          <volume>79</volume>
+          <fpage>107</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.79.1.107</pub-id>
+          <pub-id pub-id-type="pmid">2562936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-pharmaceutics-14-00638">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brodde</surname>
+              <given-names>O.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beta 1- and beta 2-adrenoceptors in the human heart: Properties, function, and alterations in chronic heart failure</article-title>
+          <source>Pharmacol. Rev.</source>
+          <year>1991</year>
+          <volume>43</volume>
+          <fpage>203</fpage>
+          <lpage>242</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B24-pharmaceutics-14-00638">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vyas</surname>
+              <given-names>F.S.</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Boocock</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Hargreaves</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Dickenson</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x3B2; 2-adrenoceptor-induced modulation of transglutaminase 2 transamidase activity in cardiomyoblasts</article-title>
+          <source>Eur. J. Pharmacol.</source>
+          <year>2017</year>
+          <volume>813</volume>
+          <fpage>105</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejphar.2017.07.043</pub-id>
+          <pub-id pub-id-type="pmid">28754379</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-pharmaceutics-14-00638">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koziczak-Holbro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rigel</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Dumotier</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sykes</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Tsao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>B&#xF6;sch</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jourdain</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Flotte</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Adachi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pharmacological Characterization of a Novel 5-Hydroxybenzothiazolone-Derived &#x3B2; 2-Adrenoceptor Agonist with Functional Selectivity for Anabolic Effects on Skeletal Muscle Resulting in a Wider Cardiovascular Safety Window in Preclinical Studies</article-title>
+          <source>J. Pharmacol. Exp. Ther.</source>
+          <year>2019</year>
+          <volume>369</volume>
+          <fpage>188</fpage>
+          <lpage>199</lpage>
+          <pub-id pub-id-type="doi">10.1124/jpet.118.255307</pub-id>
+          <pub-id pub-id-type="pmid">30819762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-pharmaceutics-14-00638">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Molenaar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Parsonage</surname>
+              <given-names>W.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cardiac implications for the use of beta2-adrenoceptor agonists for the management of muscle wasting</article-title>
+          <source>Br. J. Pharmacol.</source>
+          <year>2006</year>
+          <volume>147</volume>
+          <fpage>583</fpage>
+          <lpage>586</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.bjp.0706670</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-pharmaceutics-14-00638">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yin</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Downregulation of &#x3B2;-Adrenoceptors in Isoproterenol-Induced Cardiac Remodeling through HuR</article-title>
+          <source>PLoS ONE</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <elocation-id>e0152005</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0152005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-pharmaceutics-14-00638">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dorn</surname>
+              <given-names>G.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adrenergic pathways and left ventricular remodeling</article-title>
+          <source>J. Card. Fail.</source>
+          <year>2002</year>
+          <volume>8</volume>
+          <fpage>S370</fpage>
+          <lpage>S373</lpage>
+          <pub-id pub-id-type="doi">10.1054/jcaf.2002.129267</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-pharmaceutics-14-00638">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brouri</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Findji</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mediani</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Mougenot</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hanoun</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>le Naour</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hamon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lechat</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxic cardiac effects of catecholamines: Role of beta-adrenoceptor downregulation</article-title>
+          <source>Eur. J. Pharmacol.</source>
+          <year>2002</year>
+          <volume>456</volume>
+          <fpage>69</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0014-2999(02)02643-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-pharmaceutics-14-00638">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kidney targeted delivery of asiatic acid using a FITC labeled renal tubular-targeting peptide modified PLGA-PEG system</article-title>
+          <source>Int. J. Pharm.</source>
+          <year>2020</year>
+          <volume>584</volume>
+          <fpage>119455</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijpharm.2020.119455</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-pharmaceutics-14-00638">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Size and temporal-dependent efficacy of oltipraz-loaded PLGA nanoparticles for treatment of acute kidney injury and fibrosis</article-title>
+          <source>Biomaterials</source>
+          <year>2019</year>
+          <volume>219</volume>
+          <fpage>119368</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.biomaterials.2019.119368</pub-id>
+          <pub-id pub-id-type="pmid">31349200</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-pharmaceutics-14-00638">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nair</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Keliher</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Core</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Weissleder</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterizing the interactions of organic nanoparticles with renal epithelial cells in vivo</article-title>
+          <source>ACS Nano</source>
+          <year>2015</year>
+          <volume>9</volume>
+          <fpage>3641</fpage>
+          <lpage>3653</lpage>
+          <pub-id pub-id-type="doi">10.1021/acsnano.5b00428</pub-id>
+          <pub-id pub-id-type="pmid">25790730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-pharmaceutics-14-00638">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vallorz</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Blohm-Mangone</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schnellmann</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Mansour</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Formoterol PLGA-PEG Nanoparticles Induce Mitochondrial Biogenesis in Renal Proximal Tubules</article-title>
+          <source>AAPS J.</source>
+          <year>2021</year>
+          <volume>23</volume>
+          <fpage>88</fpage>
+          <pub-id pub-id-type="doi">10.1208/s12248-021-00619-4</pub-id>
+          <pub-id pub-id-type="pmid">34169439</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-pharmaceutics-14-00638">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aodah</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pavlik</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Karlage</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Myrdal</surname>
+              <given-names>P.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preformulation Studies on Piperlongumine</article-title>
+          <source>PLoS ONE</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <elocation-id>e0151707</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0151707</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-pharmaceutics-14-00638">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akapo</surname>
+              <given-names>S.O.</given-names>
+            </name>
+            <name>
+              <surname>Asif</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation of a RP-HPLC method for the assay of formoterol and its related substances in formoterol fumarate dihydrate drug substance</article-title>
+          <source>J. Pharm. Biomed. Anal.</source>
+          <year>2003</year>
+          <volume>33</volume>
+          <fpage>935</fpage>
+          <lpage>945</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0731-7085(03)00425-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-pharmaceutics-14-00638">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The drug encapsulation efficiency, in vitro drug release, cellular uptake and cytotoxicity of paclitaxel-loaded poly(lactide)-tocopheryl polyethylene glycol succinate nanoparticles</article-title>
+          <source>Biomaterials</source>
+          <year>2006</year>
+          <volume>27</volume>
+          <fpage>4025</fpage>
+          <lpage>4033</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biomaterials.2006.03.006</pub-id>
+          <pub-id pub-id-type="pmid">16564085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-pharmaceutics-14-00638">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mansour</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reversion of multidrug resistance by co-encapsulation of doxorubicin and curcumin in chitosan/poly(butyl cyanoacrylate) nanoparticles</article-title>
+          <source>Int. J. Pharm.</source>
+          <year>2012</year>
+          <volume>426</volume>
+          <fpage>193</fpage>
+          <lpage>201</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijpharm.2012.01.020</pub-id>
+          <pub-id pub-id-type="pmid">22274587</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-pharmaceutics-14-00638">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Teply</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Sherifi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Sung</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Luther</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>F.X.</given-names>
+            </name>
+            <name>
+              <surname>Levy-Nissenbaum</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Radovic-Moreno</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Farokhzad</surname>
+              <given-names>O.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Formulation of functionalized PLGA-PEG nanoparticles for in vivo targeted drug delivery</article-title>
+          <source>Biomaterials</source>
+          <year>2007</year>
+          <volume>28</volume>
+          <fpage>869</fpage>
+          <lpage>876</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biomaterials.2006.09.047</pub-id>
+          <pub-id pub-id-type="pmid">17055572</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-pharmaceutics-14-00638">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alabsi</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Al-Obeidi</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Polt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mansour</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Organic Solution Advanced Spray-Dried Microparticulate/Nanoparticulate Dry Powders of Lactomorphin for Respiratory Delivery: Physicochemical Characterization, In Vitro Aerosol Dispersion, and Cellular Studies</article-title>
+          <source>Pharmaceutics</source>
+          <year>2020</year>
+          <volume>13</volume>
+          <elocation-id>26</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/pharmaceutics13010026</pub-id>
+          <pub-id pub-id-type="pmid">33375607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-pharmaceutics-14-00638">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tajber</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Corrigan</surname>
+              <given-names>D.O.</given-names>
+            </name>
+            <name>
+              <surname>Corrigan</surname>
+              <given-names>O.I.</given-names>
+            </name>
+            <name>
+              <surname>Healy</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spray drying of budesonide, formoterol fumarate and their composites&#x2014;I. Physicochemical characterisation</article-title>
+          <source>Int. J. Pharm.</source>
+          <year>2009</year>
+          <volume>367</volume>
+          <fpage>79</fpage>
+          <lpage>85</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijpharm.2008.09.030</pub-id>
+          <pub-id pub-id-type="pmid">18929631</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-pharmaceutics-14-00638">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jarring</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Larsson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Stensland</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ym&#xE9;n</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermodynamic stability and crystal structures for polymorphs and solvates of formoterol fumarate</article-title>
+          <source>J. Pharm. Sci.</source>
+          <year>2006</year>
+          <volume>95</volume>
+          <fpage>1144</fpage>
+          <lpage>1161</lpage>
+          <pub-id pub-id-type="doi">10.1002/jps.20571</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-pharmaceutics-14-00638">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharafkhaneh</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mattewal</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Dronavalli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hanania</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Budesonide/formoterol combination in COPD: A US perspective</article-title>
+          <source>Int. J. Chron. Obstruct. Pulmon. Dis.</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <fpage>357</fpage>
+          <lpage>366</lpage>
+          <pub-id pub-id-type="doi">10.2147/COPD.S4215</pub-id>
+          <pub-id pub-id-type="pmid">21037960</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-pharmaceutics-14-00638">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saari</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Vidgren</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Herrala</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Turjanmaa</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Koskinen</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Nieminen</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Possibilities of formoterol to enhance the peripheral lung deposition of the inhaled liposome corticosteroids</article-title>
+          <source>Respir. Med.</source>
+          <year>2002</year>
+          <volume>96</volume>
+          <fpage>999</fpage>
+          <lpage>1005</lpage>
+          <pub-id pub-id-type="doi">10.1053/rmed.2002.1393</pub-id>
+          <pub-id pub-id-type="pmid">12477215</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-pharmaceutics-14-00638">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jyothi</surname>
+              <given-names>N.V.</given-names>
+            </name>
+            <name>
+              <surname>Prasanna</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Sakarkar</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Prabha</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Ramaiah</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Srawan</surname>
+              <given-names>G.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microencapsulation techniques, factors influencing encapsulation efficiency</article-title>
+          <source>J. Microencapsul.</source>
+          <year>2010</year>
+          <volume>27</volume>
+          <fpage>187</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.3109/02652040903131301</pub-id>
+          <pub-id pub-id-type="pmid">20406093</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-pharmaceutics-14-00638">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wischke</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schwendeman</surname>
+              <given-names>S.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Principles of encapsulating hydrophobic drugs in PLA/PLGA microparticles</article-title>
+          <source>Int. J. Pharm.</source>
+          <year>2008</year>
+          <volume>364</volume>
+          <fpage>298</fpage>
+          <lpage>327</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijpharm.2008.04.042</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-pharmaceutics-14-00638">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ravi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Peh</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Darwis</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Murthy</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Mallikarjun</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development and characterization of polymeric microspheres for controlled release protein loaded drug delivery system</article-title>
+          <source>Indian J. Pharm. Sci.</source>
+          <year>2008</year>
+          <volume>70</volume>
+          <fpage>303</fpage>
+          <lpage>309</lpage>
+          <pub-id pub-id-type="doi">10.4103/0250-474X.42978</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-pharmaceutics-14-00638">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dual agents loaded PLGA nanoparticles: Systematic study of particle size and drug entrapment efficiency</article-title>
+          <source>Eur. J. Pharm. Biopharm.</source>
+          <year>2008</year>
+          <volume>69</volume>
+          <fpage>445</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejpb.2008.01.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-pharmaceutics-14-00638">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rabanel</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Hildgen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Banquy</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of PEG on polymeric particles surface, a key step in drug carrier translation</article-title>
+          <source>J. Control. Release</source>
+          <year>2014</year>
+          <volume>185</volume>
+          <fpage>71</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jconrel.2014.04.017</pub-id>
+          <pub-id pub-id-type="pmid">24768790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-pharmaceutics-14-00638">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>R.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Production and characterization of a budesonide nanosuspension for pulmonary administration</article-title>
+          <source>Pharm. Res.</source>
+          <year>2002</year>
+          <volume>19</volume>
+          <fpage>189</fpage>
+          <lpage>194</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1014276917363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-pharmaceutics-14-00638">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of emulsifiers on the controlled release of paclitaxel (Taxol) from nanospheres of biodegradable polymers</article-title>
+          <source>J. Control. Release</source>
+          <year>2001</year>
+          <volume>71</volume>
+          <fpage>53</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0168-3659(00)00364-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-pharmaceutics-14-00638">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vega</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gamisans</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Chauvet</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lacoulonche</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Egea</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>PLGA nanospheres for the ocular delivery of flurbiprofen: Drug release and interactions</article-title>
+          <source>J. Pharm. Sci.</source>
+          <year>2008</year>
+          <volume>97</volume>
+          <fpage>5306</fpage>
+          <lpage>5317</lpage>
+          <pub-id pub-id-type="doi">10.1002/jps.21383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-pharmaceutics-14-00638">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ting</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Tong-Chun</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Jian-Jun</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Cheng-Wen</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Viscosity and activation parameters of viscous flow of sodium cholate aqueous solution</article-title>
+          <source>J. Mol. Liq.</source>
+          <year>2008</year>
+          <volume>142</volume>
+          <fpage>150</fpage>
+          <lpage>154</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B53-pharmaceutics-14-00638">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mohsen-Nia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Modarress</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Viscometric study of aqueous poly(vinyl alcohol) (PVA) solutions as a binder in adhesive formulations</article-title>
+          <source>J. Adhes. Sci. Technol.</source>
+          <year>2012</year>
+          <volume>20</volume>
+          <fpage>1273</fpage>
+          <lpage>1280</lpage>
+          <pub-id pub-id-type="doi">10.1163/156856106778456636</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-pharmaceutics-14-00638">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santhanalakshmi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lakshmi</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Aswal</surname>
+              <given-names>V.K.</given-names>
+            </name>
+            <name>
+              <surname>Goyal</surname>
+              <given-names>P.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Small-angle neutron scattering study of sodium cholate and sodium deoxycholate interacting micelles in aqueous medium</article-title>
+          <source>Proc. Indian Acad. Sci.</source>
+          <year>2001</year>
+          <volume>113</volume>
+          <fpage>55</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02708552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-pharmaceutics-14-00638">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maslova</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Kiselev</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of Sodium Cholate Micelles</article-title>
+          <source>Crystallogr. Rep.</source>
+          <year>2018</year>
+          <volume>63</volume>
+          <fpage>472</fpage>
+          <lpage>475</lpage>
+          <pub-id pub-id-type="doi">10.1134/S1063774518030173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-pharmaceutics-14-00638">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdelwahed</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Degobert</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Stainmesse</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fessi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Freeze-drying of nanoparticles: Formulation, process and storage considerations</article-title>
+          <source>Adv. Drug Deliv. Rev.</source>
+          <year>2006</year>
+          <volume>58</volume>
+          <fpage>1688</fpage>
+          <lpage>1713</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.addr.2006.09.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-pharmaceutics-14-00638">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fonte</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Soares</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sousa</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Seabra</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Reis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sarmento</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stability study perspective of the effect of freeze-drying using cryoprotectants on the structure of insulin loaded into PLGA nanoparticles</article-title>
+          <source>Biomacromolecules</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <fpage>3753</fpage>
+          <lpage>3765</lpage>
+          <pub-id pub-id-type="doi">10.1021/bm5010383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-pharmaceutics-14-00638">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holzer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vogel</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>M&#xE4;ntele</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Haase</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physico-chemical characterisation of PLGA nanoparticles after freeze-drying and storage</article-title>
+          <source>Eur. J. Pharm. Biopharm.</source>
+          <year>2009</year>
+          <volume>72</volume>
+          <fpage>428</fpage>
+          <lpage>437</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejpb.2009.02.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-pharmaceutics-14-00638">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kedward</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>MacNaughtan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isothermal and non-isothermal crystallization in amorphous sucrose and lactose at low moisture contents</article-title>
+          <source>Carbohydr. Res.</source>
+          <year>2000</year>
+          <volume>329</volume>
+          <fpage>423</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0008-6215(00)00179-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-pharmaceutics-14-00638">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Eerdenbrugh</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Froyen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Martens</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Blaton</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Augustijns</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Brewster</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van den Mooter</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of physico-chemical properties and pharmaceutical performance of sucrose co-freeze-dried solid nanoparticulate powders of the anti-HIV agent loviride prepared by media milling</article-title>
+          <source>Int. J. Pharm.</source>
+          <year>2007</year>
+          <volume>338</volume>
+          <fpage>198</fpage>
+          <lpage>206</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijpharm.2007.02.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-pharmaceutics-14-00638">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexis</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Factors affecting the degradation and drug-release mechanism of poly(lactic acid) and poly[(lactic acid)-co-(glycolic acid)]</article-title>
+          <source>Polym. Int.</source>
+          <year>2004</year>
+          <volume>54</volume>
+          <fpage>36</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.1002/pi.1697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-pharmaceutics-14-00638">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kranz</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ubrich</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Maincent</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bodmeier</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physicomechanical properties of biodegradable poly(D,L-lactide) and poly(D,L-lactide-co-glycolide) films in the dry and wet states</article-title>
+          <source>J. Pharm. Sci.</source>
+          <year>2000</year>
+          <volume>89</volume>
+          <fpage>1558</fpage>
+          <lpage>1566</lpage>
+          <pub-id pub-id-type="doi">10.1002/1520-6017(200012)89:12&lt;1558::AID-JPS6&gt;3.0.CO;2-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-pharmaceutics-14-00638">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Makadia</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly Lactic-co-Glycolic Acid (PLGA) as Biodegradable Controlled Drug Delivery Carrier</article-title>
+          <source>Polymers</source>
+          <year>2011</year>
+          <volume>3</volume>
+          <fpage>1377</fpage>
+          <lpage>1397</lpage>
+          <pub-id pub-id-type="doi">10.3390/polym3031377</pub-id>
+          <pub-id pub-id-type="pmid">22577513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64-pharmaceutics-14-00638">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Saylor</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Koo</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polymer degradation and drug delivery in PLGA-based drug-polymer applications: A review of experiments and theories</article-title>
+          <source>J. Biomed. Mater. Res. B Appl. Biomater.</source>
+          <year>2017</year>
+          <volume>105</volume>
+          <fpage>1692</fpage>
+          <lpage>1716</lpage>
+          <pub-id pub-id-type="doi">10.1002/jbm.b.33648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-pharmaceutics-14-00638">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tchessalov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cicerone</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Warne</surname>
+              <given-names>N.W.</given-names>
+            </name>
+            <name>
+              <surname>Pikal</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of sucrose level on storage stability of proteins in freeze-dried solids: II. Correlation of aggregation rate with protein structure and molecular mobility</article-title>
+          <source>J. Pharm. Sci.</source>
+          <year>2009</year>
+          <volume>98</volume>
+          <fpage>3145</fpage>
+          <lpage>3166</lpage>
+          <pub-id pub-id-type="doi">10.1002/jps.21622</pub-id>
+          <pub-id pub-id-type="pmid">19067392</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="pharmaceutics-14-00638-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Solubility of formoterol determined in (<bold>A</bold>) ethanol and methanol, (<bold>B</bold>) water at various pH, and (<bold>C</bold>) aqueous solutions of various surfactants at 25 &#xB0;C and gentle shaking for 24 h. Data presented are mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g001.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Formoterol drug loading of nanoparticles (<bold>A</bold>) prepared by single emulsion with increasing PLGA molecular weight, (<bold>B</bold>) prepared by single emulsion with increasing PLGA concentration, (<bold>C</bold>) prepared by double emulsion with modified PEG groups, (<bold>D</bold>) prepared by double emulsion with alterations to inner aqueous phase surfactant (<bold>E</bold>) structures of sodium cholate and sodium deoxycholate. PVA; 1% polyvinyl alcohol, NaCho; 12 mM sodium cholate, NaDOChol; 10 mM sodium deoxycholate. * indicates significance (<italic>p</italic> &lt; 0.05). All data are presented as mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g002.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Median hydrodynamic diameter determined by zetasizer for nanoparticles prepared by double emulsion with (<bold>A</bold>) increasing 60 W ultrasonication time and (<bold>B</bold>) increasing polymer concentration in the organic phase. All data are presented as mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g003.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Median hydrodynamic diameter determined by zetasizer for PLGA-PEG-NH<sub>2</sub> nanoparticles prepared by double emulsion using either <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i001.tif"/> mannitol, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i002.tif"/> trehalose, or <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i003.tif"/> sucrose as cryoprotectants. All data are presented as mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g004.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Zeta potential measurements of nanoparticles prepared with various PEG modifications immediately following synthesis after resuspension in 0.1&#xD7; normal saline solution at 25 &#xB0;C and pH 7.2. <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i004.tif"/> PLGA-PEG-COOH, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i005.tif"/> PLGA-PEG, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i006.tif"/> PLGA-PEG-NH<sub>2</sub>. All data are presented as mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g005.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Cumulative formoterol release from nanoparticles at 37 &#xB0;C and constant stirring (<bold>A</bold>) <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i007.tif"/> oil-in-water single emulsion <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i008.tif"/> water-in-oil-in-water double emulsion (<bold>B</bold>) nanoparticles prepared by double emulsion with <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i009.tif"/> 1% PVA inner phase, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i010.tif"/> 12 mM sodium cholate inner phase, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i011.tif"/> 10 mM sodium deoxycholate inner phase (<bold>C</bold>) nanoparticles prepared by double emulsion using <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i012.tif"/> 10 mg/mL, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i013.tif"/> 20 mg/mL, <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-i014.tif"/> 50 mg/mL PLGA-PEG-NH<sub>2</sub>. Inserts of the first 10 h are included for (<bold>B</bold>,<bold>C</bold>). All data are presented as the mean of (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g006.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Scanning electron micrographs taken of double emulsion prepared nanoparticles of (<bold>A</bold>) PLGA-PEG, (<bold>B</bold>) PLGA-PEG-COOH, (<bold>C</bold>) PLGA-PEG-NH<sub>2</sub>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g007.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>XRPD diffractograms (<bold>A</bold>) formoterol fumarate dihydrate (orange), PLGA-PEG-NH<sub>2</sub> (red), sucrose (green), and trehalose (blue) and (<bold>B</bold>) nanoparticles lyophilized without cryoprotectant (red), nanoparticles lyophilized with either sucrose (green) or trehalose (blue) cryoprotectants. Black is the blank background.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g008.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Differential scanning calorimetry thermograms of (<bold>A</bold>) formoterol fumarate dihydrate, (<bold>B</bold>) PLGA-PEG-NH<sub>2</sub> (<bold>C</bold>) Sucrose, (<bold>D</bold>) Trehalose, (<bold>E</bold>) PLGA-PEG-NH<sub>2</sub> nanoparticles lyophilized without cryoprotectant, (<bold>F</bold>) nanoparticles lyophilized with 5% sucrose cryoprotectant, (<bold>G</bold>) nanoparticles lyophilized with 5% trehalose cryoprotectant.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g009.tif"/>
+      </fig>
+      <fig id="pharmaceutics-14-00638-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Representative hot stage microscopy images for (<bold>A</bold>) PLGA-PEG-NH<sub>2</sub> nanoparticles lyophilized without cryoprotectant, (<bold>B</bold>) nanoparticles lyophilized with 5% sucrose cryoprotectant, (<bold>C</bold>) nanoparticles lyophilized with 5% trehalose cryoprotectant.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pharmaceutics-14-00638-g010.tif"/>
+      </fig>
+      <table-wrap id="pharmaceutics-14-00638-t001" position="float">
+        <object-id pub-id-type="pii">pharmaceutics-14-00638-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Solubility of formoterol in various organic solvents. DCM; dichloromethane, ACN; acetonitrile. Data are presented as the mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Solvent</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Formoterol Solubility (mg/mL)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DCM</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.001 &#xB1; 0.0004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Chloroform</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.002 &#xB1; 0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ACN</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.005 &#xB1; 0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Acetone</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.051 &#xB1; 0.004</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="pharmaceutics-14-00638-t002" position="float">
+        <object-id pub-id-type="pii">pharmaceutics-14-00638-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Nanoparticle release kinetics modeling. o/w; oil-in-water single emulsion w/o/w; water-in-oil-in-water double emulsion, PVA; nanoparticles prepared by double emulsion using 1% PVA inner phase, NaCholate; nanoparticles prepared by double emulsion using 12 mM sodium cholate inner phase, NaDOCholate; nanoparticles prepared by double emulsion using 10 mM sodium deoxycholate inner phase, 10/20/50 mg/mL; nanoparticles prepared by double emulsion using 10/20/50 mg/mL of polymer in the organic phase. All data are presented as the mean of (<italic>n</italic> = 3) release profiles.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Zero Order</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">First Order</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Korsmeyer-Peppas</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">n</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">o/w</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.88</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.56</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">w/o/w</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.77</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.97</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.97</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.34</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PVA</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.65</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.89</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.23</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NaCholate</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.86</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.27</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NaDOCholate</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.49</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.81</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.84</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.17</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10 mg/mL</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.86</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.27</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20 mg/mL</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.96</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.97</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.40</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50 mg/mL</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.92</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.96</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.98</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.42</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="pharmaceutics-14-00638-t003" position="float">
+        <object-id pub-id-type="pii">pharmaceutics-14-00638-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Differential scanning calorimetry (DSC) thermal analysis. T<sub>g</sub>; glass transition temperature. Data presented are mean (<italic>n</italic> = 3) &#xB1; s.d.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tg (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x2206;Cp</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Endotherm #1</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Endotherm #2</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Endotherm #3</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Endotherm #4</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Exotherm #1</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sample</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">onset (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">mid (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">end (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">J/g &#xB0;C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">onset (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">peak (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">enthalpy (J/g)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">onset (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">peak (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">enthalpy (J/g)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">onset (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">peak (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">enthalpy (J/g)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">onset (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">peak (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">enthalpy (J/g)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">onset (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">peak (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">enthalpy (J/g)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Raw Formoterol Fumarate Dihydrate</td>
+              <td colspan="4" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">88.84 &#xB1; 1.87</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">104.62 &#xB1; 3.62</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.56 &#xB1; 1.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">116.28 &#xB1; 0.76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">130.82 &#xB1; 2.73</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">136.7 &#xB1; 0.89</td>
+              <td rowspan="2" colspan="3" align="center" valign="middle"> </td>
+              <td rowspan="2" colspan="3" align="center" valign="middle"> </td>
+              <td rowspan="4" colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Raw PLGA-PEG-NH2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.56 &#xB1; 1.34</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.43 &#xB1; 1.51</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.34 &#xB1; 1.93</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.69 &#xB1; 0.44</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.32 &#xB1; 2.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47.97 &#xB1; 4.72</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.95 &#xB1; 3.34</td>
+              <td rowspan="2" colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Raw Sucrose</td>
+              <td rowspan="2" colspan="4" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td rowspan="2" colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">187.01 &#xB1; 0.59</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">189.43 &#xB1; 0.23</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">129.47 &#xB1; 0.4</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">219.35 &#xB1; 5.56</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">220.72 &#xB1; 4.48</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">150 &#xB1; 50.01</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Raw Trehalose</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">94.46 &#xB1; 0.07</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">95.79 &#xB1; 0.05</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">94.54 &#xB1; 2.28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">190.98 &#xB1; 1.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">193.3 &#xB1; 3.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">92.98 &#xB1; 14.66</td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Nanoparticle No Cryoprotectant</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.3 &#xB1; 1.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.12 &#xB1; 0.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.48 &#xB1; 0.69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.3 &#xB1; 0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.16 &#xB1; 6.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.99 &#xB1; 6.73</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.98 &#xB1; 1.14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">82.62 &#xB1; 2.34</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">112.95 &#xB1; 9.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.67 &#xB1; 3.24</td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Nanoparticle Sucrose Cryoprotectant</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.09 &#xB1; 1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">54.3 &#xB1; 0.21</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">54.82 &#xB1; 0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.34 &#xB1; 0.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">53.45 &#xB1; 0.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">57.15 &#xB1; 0.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.13 &#xB1; 0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">70.93 &#xB1; 2.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">96.02 &#xB1; 1.58</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.11 &#xB1; 0.56</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">180.03 &#xB1; 0.36</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">184.74 &#xB1; 0.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86.59 &#xB1; 2.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">213.08 &#xB1; 5.68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">222.78 &#xB1; 2.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">119.77 &#xB1; 1.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">136.56 &#xB1; 1.93</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">148.26 &#xB1; 3.06</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">79.36 &#xB1; 5.03</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Nanoparticle a Trehalose Cryoprotectant</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.08 &#xB1; 3.39</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">44.68 &#xB1; 4.02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">46.64 &#xB1; 2.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.21 &#xB1; 0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.97 &#xB1; 1.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.17 &#xB1; 0.18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.73 &#xB1; 3.73</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.99 &#xB1; 1.99</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86.75 &#xB1; 3.45</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.89 &#xB1; 2.72</td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="pharmaceutics-14-00638-t004" position="float">
+        <object-id pub-id-type="pii">pharmaceutics-14-00638-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Residual water content of lyophilized nanoparticles with and without cryoprotectants. * indicates significantly different from other groups (<italic>p</italic> &lt; 0.05) Data are presented as the mean (<italic>n</italic> = 3).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Nanoparticle</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Water% (<italic>w</italic>/<italic>w</italic>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLGA-PEG (no cryoprotectant)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.38 &#xB1; 0.20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLGA-PEG-NH<sub>2</sub> (no cryoprotectant)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.20 &#xB1; 0.61 </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLGA-PEG-NH<sub>2</sub> (sucrose)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.78 &#xB1; 0.17 *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLGA-PEG-NH<sub>2</sub> (trehalose)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.80 &#xB1; 0.19 *</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
